@@ -1,0 +1,41 @@
+<SpimData version="0.2">
+  <BasePath type="relative">.</BasePath>
+  <SequenceDescription>
+    <ViewSetups>
+      <Attributes name="channel">
+        <Channel>
+          <id>0</id>
+        </Channel>
+      </Attributes>
+      <ViewSetup>
+        <id>0</id>
+        <name>Mucocysts</name>
+        <size>1359 1359 969</size>
+        <voxelSize>
+          <unit>micrometer</unit>
+          <size>16 16 16</size>
+        </voxelSize>
+        <attributes>
+          <channel>0</channel>
+        </attributes>
+      </ViewSetup>
+    </ViewSetups>
+    <Timepoints type="range">
+      <first>0</first>
+      <last>0</last>
+    </Timepoints>
+    <ImageLoader format="bdv.n5.s3">
+      <Key>photosynthetic_dinoflagellate/images/bdv-n5/Mucocysts.n5</Key>
+      <SigningRegion />
+      <ServiceEndpoint>https://s3.embl.de</ServiceEndpoint>
+      <BucketName>environmental-dinoflagellate-vclem</BucketName>
+    </ImageLoader>
+  </SequenceDescription>
+  <ViewRegistrations>
+    <ViewRegistration timepoint="0" setup="0">
+      <ViewTransform type="affine">
+        <affine>16 0.0 0.0 0.0 0.0 16 0.0 0.0 0.0 0.0 16 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+  </ViewRegistrations>
+</SpimData>
