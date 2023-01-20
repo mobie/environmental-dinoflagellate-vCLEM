@@ -1,0 +1,446 @@
+{
+  "is2D": false,
+  "sources": {
+    "Chloroplast": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/Chloroplast.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/Chloroplast"
+          }
+        }
+      }
+    },
+    "Chromosomes": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/Chromosomes.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/Chromosomes"
+          }
+        }
+      }
+    },
+    "Cilia": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/Cilia.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/Cilia"
+          }
+        }
+      }
+    },
+    "Eyespots": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/Eyespots.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/Eyespots"
+          }
+        }
+      }
+    },
+    "Filaments_nucleolus": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/Filaments_nucleolus.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/Filaments_nucleolus"
+          }
+        }
+      }
+    },
+    "Golgi": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/Golgi.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/Golgi"
+          }
+        }
+      }
+    },
+    "Mucocysts": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/Mucocysts.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/Mucocysts"
+          }
+        }
+      }
+    },
+    "Nuclear_envelope": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/Nuclear_envelope.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/Nuclear_envelope"
+          }
+        }
+      }
+    },
+    "Nucleolus": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/Nucleolus.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/Nucleolus"
+          }
+        }
+      }
+    },
+    "Sheets_of_filaments": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/Sheets_of_filaments.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/Sheets_of_filaments"
+          }
+        }
+      }
+    },
+    "Starch": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/Starch.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/Starch"
+          }
+        }
+      }
+    },
+    "Theca": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/Theca.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/Theca"
+          }
+        }
+      }
+    },
+    "Trichocysts": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/Trichocysts.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/Trichocysts"
+          }
+        }
+      }
+    },
+    "photosynthetic_dinoflagellate": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/photosynthetic_dinoflagellate.xml"
+          }
+        }
+      }
+    }
+  },
+  "views": {
+    "Chloroplast": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "Chloroplast",
+            "opacity": 0.5,
+            "sources": [
+              "Chloroplast"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Chromosomes": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "Chromosomes",
+            "opacity": 0.5,
+            "sources": [
+              "Chromosomes"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Cilia": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "Cilia",
+            "opacity": 0.5,
+            "sources": [
+              "Cilia"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Eyespots": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "Eyespots",
+            "opacity": 0.5,
+            "sources": [
+              "Eyespots"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Filaments_nucleolus": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "Filaments_nucleolus",
+            "opacity": 0.5,
+            "sources": [
+              "Filaments_nucleolus"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Golgi": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "Golgi",
+            "opacity": 0.5,
+            "sources": [
+              "Golgi"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Mucocysts": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "Mucocysts",
+            "opacity": 0.5,
+            "sources": [
+              "Mucocysts"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Nuclear_envelope": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "Nuclear_envelope",
+            "opacity": 0.5,
+            "sources": [
+              "Nuclear_envelope"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Nucleolus": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "Nucleolus",
+            "opacity": 0.5,
+            "sources": [
+              "Nucleolus"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Sheets_of_filaments": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "Sheets_of_filaments",
+            "opacity": 0.5,
+            "sources": [
+              "Sheets_of_filaments"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Starch": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "Starch",
+            "opacity": 0.5,
+            "sources": [
+              "Starch"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Theca": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "Theca",
+            "opacity": 0.5,
+            "sources": [
+              "Theca"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Trichocysts": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "Trichocysts",
+            "opacity": 0.5,
+            "sources": [
+              "Trichocysts"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "default": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "photosynthetic_dinoflagellate",
+            "opacity": 1.0,
+            "sources": [
+              "photosynthetic_dinoflagellate"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmark"
+    },
+    "photosynthetic_dinoflagellate": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "photosynthetic_dinoflagellate",
+            "opacity": 1.0,
+            "sources": [
+              "photosynthetic_dinoflagellate"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "images"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "datasets": [
+    "photosynthetic_dinoflagellate"
+  ],
+  "defaultDataset": "photosynthetic_dinoflagellate",
+  "specVersion": "0.3.0"
+}
