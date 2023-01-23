@@ -7,7 +7,7 @@
         <name>FM_full_Ch2</name>
         <size>1539 2046 26</size>
         <voxelSize>
-          <unit>micron</unit>
+          <unit>µm</unit>
           <size>1.1070211166023867 1.1070211166023867 5.0</size>
         </voxelSize>
         <attributes>
