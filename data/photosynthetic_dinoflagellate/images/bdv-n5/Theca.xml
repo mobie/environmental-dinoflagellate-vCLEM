@@ -15,7 +15,7 @@
         <name>Theca</name>
         <size>1359 1359 969</size>
         <voxelSize>
-          <unit>micrometer</unit>
+          <unit>nm</unit>
           <size>16 16 16</size>
         </voxelSize>
         <attributes>
@@ -31,7 +31,7 @@
   <ViewRegistrations>
     <ViewRegistration timepoint="0" setup="0">
       <ViewTransform type="affine">
-        <affine>16 0.0 0.0 0.0 0.0 16 0.0 0.0 0.0 0.0 16 0.0</affine>
+        <affine>0.016 0.0 0.0 0.0 0.0 0.016 0.0 0.0 0.0 0.0 0.016 0.0</affine>
       </ViewTransform>
     </ViewRegistration>
   </ViewRegistrations>
