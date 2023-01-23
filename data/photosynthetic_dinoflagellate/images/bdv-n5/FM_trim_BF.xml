@@ -11,7 +11,7 @@
         <name>FM_trim_BF</name>
         <size>880 880 21</size>
         <voxelSize>
-          <unit>micron</unit>
+          <unit>µm</unit>
           <size>0.19322550398878022 0.19322550398878022 3.0</size>
         </voxelSize>
         <attributes>

@@ -11,7 +11,7 @@
         <name>FM_pre-trim_Ch1</name>
         <size>880 880 38</size>
         <voxelSize>
-          <unit>micron</unit>
+          <unit>µm</unit>
           <size>0.19322550398878022 0.19322550398878022 3.0</size>
         </voxelSize>
         <attributes>
