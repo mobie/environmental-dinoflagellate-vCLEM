@@ -479,117 +479,66 @@
     }
   },
   "views": {
-    "Chloroplast": {
-      "uiSelectionGroup": "em_segmentation",
+    "default": {
+      "uiSelectionGroup": "bookmark",
       "sourceDisplays": [
         {
-          "segmentationDisplay": {
+          "imageDisplay": {
             "sources": [
-              "Chloroplast"
+              "photosynthetic_dinoflagellate"
             ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              255.0
             ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Chloroplast",
-            "opacity": 0.5,
+            "showImagesIn3d": false,
+            "name": "photosynthetic_dinoflagellate",
+            "opacity": 1.0,
             "visible": true,
-            "blendingMode": "alpha"
+            "blendingMode": "sum"
           }
         }
       ],
-      "isExclusive": false
+      "sourceTransforms": [],
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.04418686859290404,
+          4.348456875242372E-18,
+          -1.138683506820882E-19,
+          -0.48022288786768114,
+          -4.348456875242372E-18,
+          0.04418686859290404,
+          5.6029271609841135E-36,
+          -0.48022288786768125,
+          1.138683506820882E-19,
+          5.6029271609841135E-36,
+          0.04418686859290404,
+          -0.34218311038344884
+        ],
+        "timepoint": 0
+      },
+      "isExclusive": true,
+      "name": ""
     },
-    "Chromosomes": {
-      "uiSelectionGroup": "em_segmentation",
+    "photosynthetic_dinoflagellate": {
+      "uiSelectionGroup": "EM",
       "sourceDisplays": [
         {
-          "segmentationDisplay": {
+          "imageDisplay": {
             "sources": [
-              "Chromosomes"
+              "photosynthetic_dinoflagellate"
             ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
             ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Chromosomes",
-            "opacity": 0.5,
+            "showImagesIn3d": false,
+            "name": "photosynthetic_dinoflagellate",
+            "opacity": 1.0,
             "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Cilia": {
-      "uiSelectionGroup": "em_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Cilia"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Cilia",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Eyespots": {
-      "uiSelectionGroup": "em_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Eyespots"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Eyespots",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
+            "blendingMode": "sum"
           }
         }
       ],
@@ -883,8 +832,124 @@
       "isExclusive": false,
       "name": "FM_trim_RL"
     },
+    "Chloroplast": {
+      "uiSelectionGroup": "EM_segmentation",
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "sources": [
+              "Chloroplast"
+            ],
+            "showSelectedSegmentsIn3d": false,
+            "lut": "glasbey",
+            "showScatterPlot": false,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showTable": true,
+            "showAsBoundaries": false,
+            "boundaryThickness": 1.0,
+            "randomColorSeed": 42,
+            "opacityNotSelected": 0.15,
+            "name": "Chloroplast",
+            "opacity": 0.5,
+            "visible": true,
+            "blendingMode": "alpha"
+          }
+        }
+      ],
+      "isExclusive": false
+    },
+    "Chromosomes": {
+      "uiSelectionGroup": "EM_segmentation",
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "sources": [
+              "Chromosomes"
+            ],
+            "showSelectedSegmentsIn3d": false,
+            "lut": "glasbey",
+            "showScatterPlot": false,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showTable": true,
+            "showAsBoundaries": false,
+            "boundaryThickness": 1.0,
+            "randomColorSeed": 42,
+            "opacityNotSelected": 0.15,
+            "name": "Chromosomes",
+            "opacity": 0.5,
+            "visible": true,
+            "blendingMode": "alpha"
+          }
+        }
+      ],
+      "isExclusive": false
+    },
+    "Cilia": {
+      "uiSelectionGroup": "EM_segmentation",
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "sources": [
+              "Cilia"
+            ],
+            "showSelectedSegmentsIn3d": false,
+            "lut": "glasbey",
+            "showScatterPlot": false,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showTable": true,
+            "showAsBoundaries": false,
+            "boundaryThickness": 1.0,
+            "randomColorSeed": 42,
+            "opacityNotSelected": 0.15,
+            "name": "Cilia",
+            "opacity": 0.5,
+            "visible": true,
+            "blendingMode": "alpha"
+          }
+        }
+      ],
+      "isExclusive": false
+    },
+    "Eyespots": {
+      "uiSelectionGroup": "EM_segmentation",
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "sources": [
+              "Eyespots"
+            ],
+            "showSelectedSegmentsIn3d": false,
+            "lut": "glasbey",
+            "showScatterPlot": false,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showTable": true,
+            "showAsBoundaries": false,
+            "boundaryThickness": 1.0,
+            "randomColorSeed": 42,
+            "opacityNotSelected": 0.15,
+            "name": "Eyespots",
+            "opacity": 0.5,
+            "visible": true,
+            "blendingMode": "alpha"
+          }
+        }
+      ],
+      "isExclusive": false
+    },
     "Filaments_nucleolus": {
-      "uiSelectionGroup": "em_segmentation",
+      "uiSelectionGroup": "EM_segmentation",
       "sourceDisplays": [
         {
           "segmentationDisplay": {
@@ -913,7 +978,7 @@
       "isExclusive": false
     },
     "Golgi": {
-      "uiSelectionGroup": "em_segmentation",
+      "uiSelectionGroup": "EM_segmentation",
       "sourceDisplays": [
         {
           "segmentationDisplay": {
@@ -942,7 +1007,7 @@
       "isExclusive": false
     },
     "Mucocysts": {
-      "uiSelectionGroup": "em_segmentation",
+      "uiSelectionGroup": "EM_segmentation",
       "sourceDisplays": [
         {
           "segmentationDisplay": {
@@ -971,7 +1036,7 @@
       "isExclusive": false
     },
     "Nuclear_envelope": {
-      "uiSelectionGroup": "em_segmentation",
+      "uiSelectionGroup": "EM_segmentation",
       "sourceDisplays": [
         {
           "segmentationDisplay": {
@@ -1000,7 +1065,7 @@
       "isExclusive": false
     },
     "Nucleolus": {
-      "uiSelectionGroup": "em_segmentation",
+      "uiSelectionGroup": "EM_segmentation",
       "sourceDisplays": [
         {
           "segmentationDisplay": {
@@ -1029,7 +1094,7 @@
       "isExclusive": false
     },
     "Sheets_of_filaments": {
-      "uiSelectionGroup": "em_segmentation",
+      "uiSelectionGroup": "EM_segmentation",
       "sourceDisplays": [
         {
           "segmentationDisplay": {
@@ -1058,7 +1123,7 @@
       "isExclusive": false
     },
     "Starch": {
-      "uiSelectionGroup": "em_segmentation",
+      "uiSelectionGroup": "EM_segmentation",
       "sourceDisplays": [
         {
           "segmentationDisplay": {
@@ -1087,7 +1152,7 @@
       "isExclusive": false
     },
     "Theca": {
-      "uiSelectionGroup": "em_segmentation",
+      "uiSelectionGroup": "EM_segmentation",
       "sourceDisplays": [
         {
           "segmentationDisplay": {
@@ -1116,7 +1181,7 @@
       "isExclusive": false
     },
     "Trichocysts": {
-      "uiSelectionGroup": "em_segmentation",
+      "uiSelectionGroup": "EM_segmentation",
       "sourceDisplays": [
         {
           "segmentationDisplay": {
@@ -1143,72 +1208,7 @@
         }
       ],
       "isExclusive": false
-    },
-    "default": {
-      "uiSelectionGroup": "bookmark",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "photosynthetic_dinoflagellate"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              255.0
-            ],
-            "showImagesIn3d": false,
-            "name": "photosynthetic_dinoflagellate",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "sourceTransforms": [],
-      "viewerTransform": {
-        "normalizedAffine": [
-          0.04418686859290404,
-          4.348456875242372E-18,
-          -1.138683506820882E-19,
-          -0.48022288786768114,
-          -4.348456875242372E-18,
-          0.04418686859290404,
-          5.6029271609841135E-36,
-          -0.48022288786768125,
-          1.138683506820882E-19,
-          5.6029271609841135E-36,
-          0.04418686859290404,
-          -0.34218311038344884
-        ],
-        "timepoint": 0
-      },
-      "isExclusive": true,
-      "name": ""
-    },
-    "photosynthetic_dinoflagellate": {
-      "uiSelectionGroup": "images",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "photosynthetic_dinoflagellate"
-            ],
-            "color": "white",
-            "contrastLimits": [
-              0.0,
-              255.0
-            ],
-            "showImagesIn3d": false,
-            "name": "photosynthetic_dinoflagellate",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "isExclusive": false
-    },
+    },    
     "LM_full": {
       "uiSelectionGroup": "Light_microscopy_views",
       "sourceDisplays": [
@@ -1847,161 +1847,6 @@
           8.876268094452073E-20,
           -0.0030200002932911727,
           0.15465903037375572
-        ],
-        "timepoint": 0
-      },
-      "isExclusive": true,
-      "name": ""
-    },
-    "view1": {
-      "uiSelectionGroup": "bookmark",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_trim_BF"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              247.59780519999998
-            ],
-            "showImagesIn3d": false,
-            "name": "FM_trim_BF",
-            "opacity": 1.0,
-            "visible": false,
-            "blendingMode": "sum"
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_trim_Ch1"
-            ],
-            "color": "r=255,g=0,b=255,a=255",
-            "contrastLimits": [
-              11.0,
-              118.0
-            ],
-            "showImagesIn3d": false,
-            "name": "FM_trim_Ch1",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_trim_Ch2"
-            ],
-            "color": "r=0,g=255,b=0,a=255",
-            "contrastLimits": [
-              8.0,
-              128.0
-            ],
-            "showImagesIn3d": false,
-            "name": "FM_trim_Ch2",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_trim_RL"
-            ],
-            "color": "r=0,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              255.0
-            ],
-            "showImagesIn3d": false,
-            "name": "FM_trim_RL",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "photosynthetic_dinoflagellate"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              47.8125,
-              180.6165
-            ],
-            "showImagesIn3d": false,
-            "name": "photosynthetic_dinoflagellate",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
-              94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
-              0.9999999999999999,
-              -125.83256535618035,
-              4.0692531044463735E-23,
-              0.9999999999999998,
-              4.747878885203768E-16,
-              11.297899906604163
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "photosynthetic_dinoflagellate"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "parameters": [
-              -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
-              94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
-              0.9999999999999999,
-              -125.83256535618035,
-              4.0692531044463735E-23,
-              0.9999999999999998,
-              4.747878885203768E-16,
-              11.297899906604163
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "photosynthetic_dinoflagellate"
-            ]
-          }
-        }
-      ],
-      "viewerTransform": {
-        "normalizedAffine": [
-          -0.2803545339565001,
-          -0.11900343927471478,
-          -2.642462655987311E-17,
-          8.135914301169503,
-          -0.11900343927471478,
-          0.2803545339565001,
-          6.225251899708623E-17,
-          43.66386716230542,
-          5.6310997423618785E-33,
-          6.762867003210498E-17,
-          -0.3045660573162693,
-          7.068907762745227
         ],
         "timepoint": 0
       },
