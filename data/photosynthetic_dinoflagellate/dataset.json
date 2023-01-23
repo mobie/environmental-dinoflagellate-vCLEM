@@ -1,5 +1,4 @@
 {
-  "is2D": false,
   "defaultLocation": {
     "position": [
       0.0,
@@ -8,1137 +7,1160 @@
     ],
     "timepoint": 0
   },
+  "is2D": false,
   "sources": {
-    "FM_trim_Ch2": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_trim_Ch2.xml",
-            "channel": 0
-          }
-        },
-        "name": "FM_trim_Ch2"
-      }
-    },
-    "FM_trim_BF": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_trim_BF.xml",
-            "channel": 0
-          }
-        },
-        "name": "FM_trim_BF"
-      }
-    },
-    "FM_full_Ch2": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_full_Ch2.xml",
-            "channel": 0
-          }
-        },
-        "name": "FM_full_Ch2"
-      }
-    },
-    "Nucleolus": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Nucleolus",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Nucleolus.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Nucleolus.xml",
-            "channel": 0
-          }
-        },
-        "name": "Nucleolus"
-      }
-    },
-    "photosynthetic_dinoflagellate": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/photosynthetic_dinoflagellate.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/photosynthetic_dinoflagellate.xml",
-            "channel": 0
-          }
-        },
-        "name": "photosynthetic_dinoflagellate"
-      }
-    },
-    "FM_trim_Ch1": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_trim_Ch1.xml",
-            "channel": 0
-          }
-        },
-        "name": "FM_trim_Ch1"
-      }
-    },
-    "FM_full_Ch1": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_full_Ch1.xml",
-            "channel": 0
-          }
-        },
-        "name": "FM_full_Ch1"
-      }
-    },
-    "Mucocysts": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Mucocysts",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Mucocysts.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Mucocysts.xml",
-            "channel": 0
-          }
-        },
-        "name": "Mucocysts"
-      }
-    },
-    "Filaments_nucleolus": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Filaments_nucleolus",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Filaments_nucleolus.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Filaments_nucleolus.xml",
-            "channel": 0
-          }
-        },
-        "name": "Filaments_nucleolus"
-      }
-    },
-    "Nuclear_envelope": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Nuclear_envelope",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Nuclear_envelope.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Nuclear_envelope.xml",
-            "channel": 0
-          }
-        },
-        "name": "Nuclear_envelope"
-      }
-    },
-    "Golgi": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Golgi",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Golgi.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Golgi.xml",
-            "channel": 0
-          }
-        },
-        "name": "Golgi"
-      }
-    },
-    "Chromosomes": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Chromosomes",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Chromosomes.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Chromosomes.xml",
-            "channel": 0
-          }
-        },
-        "name": "Chromosomes"
-      }
-    },
-    "Sheets_of_filaments": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Sheets_of_filaments",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Sheets_of_filaments.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Sheets_of_filaments.xml",
-            "channel": 0
-          }
-        },
-        "name": "Sheets_of_filaments"
-      }
-    },
-    "FM_pre-trim_Ch1": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_pre-trim_Ch1.xml",
-            "channel": 0
-          }
-        },
-        "name": "FM_pre-trim_Ch1"
-      }
-    },
     "Chloroplast": {
       "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Chloroplast",
-            "channel": 0
-          }
-        },
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/Chloroplast.xml",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Chloroplast.xml"
           },
           "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Chloroplast.xml",
-            "channel": 0
+            "relativePath": "images/bdv-n5-s3/Chloroplast.xml"
           }
         },
-        "name": "Chloroplast"
-      }
-    },
-    "FM_pre-trim_Ch2": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_pre-trim_Ch2.xml",
-            "channel": 0
-          }
-        },
-        "name": "FM_pre-trim_Ch2"
-      }
-    },
-    "Cilia": {
-      "segmentation": {
+        "name": "Chloroplast",
         "tableData": {
           "tsv": {
-            "relativePath": "tables/Cilia",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Cilia.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Cilia.xml",
-            "channel": 0
-          }
-        },
-        "name": "Cilia"
-      }
-    },
-    "Trichocysts": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Trichocysts",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Trichocysts.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Trichocysts.xml",
-            "channel": 0
-          }
-        },
-        "name": "Trichocysts"
-      }
-    },
-    "Eyespots": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Eyespots",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Eyespots.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Eyespots.xml",
-            "channel": 0
-          }
-        },
-        "name": "Eyespots"
-      }
-    },
-    "Starch": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Starch",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Starch.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Starch.xml",
-            "channel": 0
-          }
-        },
-        "name": "Starch"
-      }
-    },
-    "FM_trim_RL": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_trim_RL.xml",
-            "channel": 0
-          }
-        },
-        "name": "FM_trim_RL"
-      }
-    },
-    "FM_pre-trim_RL": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_pre-trim_RL.xml",
-            "channel": 0
-          }
-        },
-        "name": "FM_pre-trim_RL"
-      }
-    },
-    "FM_full_RL": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_full_RL.xml",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "tables/Chloroplast"
           }
         }
       }
     },
-    "FM_pre-trim_BF": {
-      "image": {
+    "Chromosomes": {
+      "segmentation": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_pre-trim_BF.xml",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Chromosomes.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Chromosomes.xml"
           }
         },
-        "name": "FM_pre-trim_BF"
+        "name": "Chromosomes",
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Chromosomes"
+          }
+        }
+      }
+    },
+    "Cilia": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Cilia.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Cilia.xml"
+          }
+        },
+        "name": "Cilia",
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Cilia"
+          }
+        }
+      }
+    },
+    "Eyespots": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Eyespots.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Eyespots.xml"
+          }
+        },
+        "name": "Eyespots",
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Eyespots"
+          }
+        }
       }
     },
     "FM_full_BF": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_full_BF.xml",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_full_BF.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_full_BF.xml"
           }
         },
         "name": "FM_full_BF"
       }
     },
-    "Theca": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Theca",
-            "channel": 0
-          }
-        },
+    "FM_full_Ch1": {
+      "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/Theca.xml",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_full_Ch1.xml"
           },
           "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Theca.xml",
-            "channel": 0
+            "relativePath": "images/bdv-n5-s3/FM_full_Ch1.xml"
           }
         },
-        "name": "Theca"
+        "name": "FM_full_Ch1"
+      }
+    },
+    "FM_full_Ch2": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_full_Ch2.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_full_Ch2.xml"
+          }
+        },
+        "name": "FM_full_Ch2"
+      }
+    },
+    "FM_full_RL": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_full_RL.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_full_RL.xml"
+          }
+        }
+      }
+    },
+    "FM_pre-trim_BF": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_pre-trim_BF.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_pre-trim_BF.xml"
+          }
+        },
+        "name": "FM_pre-trim_BF"
+      }
+    },
+    "FM_pre-trim_Ch1": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_pre-trim_Ch1.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_pre-trim_Ch1.xml"
+          }
+        },
+        "name": "FM_pre-trim_Ch1"
+      }
+    },
+    "FM_pre-trim_Ch2": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_pre-trim_Ch2.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_pre-trim_Ch2.xml"
+          }
+        },
+        "name": "FM_pre-trim_Ch2"
+      }
+    },
+    "FM_pre-trim_RL": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_pre-trim_RL.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_pre-trim_RL.xml"
+          }
+        },
+        "name": "FM_pre-trim_RL"
+      }
+    },
+    "FM_trim_BF": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_trim_BF.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_trim_BF.xml"
+          }
+        },
+        "name": "FM_trim_BF"
+      }
+    },
+    "FM_trim_Ch1": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_trim_Ch1.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_trim_Ch1.xml"
+          }
+        },
+        "name": "FM_trim_Ch1"
+      }
+    },
+    "FM_trim_Ch2": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_trim_Ch2.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_trim_Ch2.xml"
+          }
+        },
+        "name": "FM_trim_Ch2"
+      }
+    },
+    "FM_trim_RL": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_trim_RL.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_trim_RL.xml"
+          }
+        },
+        "name": "FM_trim_RL"
+      }
+    },
+    "Filaments_nucleolus": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Filaments_nucleolus.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Filaments_nucleolus.xml"
+          }
+        },
+        "name": "Filaments_nucleolus",
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Filaments_nucleolus"
+          }
+        }
+      }
+    },
+    "Golgi": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Golgi.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Golgi.xml"
+          }
+        },
+        "name": "Golgi",
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Golgi"
+          }
+        }
+      }
+    },
+    "Mucocysts": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Mucocysts.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Mucocysts.xml"
+          }
+        },
+        "name": "Mucocysts",
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Mucocysts"
+          }
+        }
+      }
+    },
+    "Nuclear_envelope": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Nuclear_envelope.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Nuclear_envelope.xml"
+          }
+        },
+        "name": "Nuclear_envelope",
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Nuclear_envelope"
+          }
+        }
+      }
+    },
+    "Nucleolus": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Nucleolus.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Nucleolus.xml"
+          }
+        },
+        "name": "Nucleolus",
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Nucleolus"
+          }
+        }
+      }
+    },
+    "Sheets_of_filaments": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Sheets_of_filaments.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Sheets_of_filaments.xml"
+          }
+        },
+        "name": "Sheets_of_filaments",
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Sheets_of_filaments"
+          }
+        }
+      }
+    },
+    "Starch": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Starch.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Starch.xml"
+          }
+        },
+        "name": "Starch",
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Starch"
+          }
+        }
+      }
+    },
+    "Theca": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Theca.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Theca.xml"
+          }
+        },
+        "name": "Theca",
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Theca"
+          }
+        }
+      }
+    },
+    "Trichocysts": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Trichocysts.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Trichocysts.xml"
+          }
+        },
+        "name": "Trichocysts",
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Trichocysts"
+          }
+        }
+      }
+    },
+    "photosynthetic_dinoflagellate": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/photosynthetic_dinoflagellate.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/photosynthetic_dinoflagellate.xml"
+          }
+        },
+        "name": "photosynthetic_dinoflagellate"
       }
     }
   },
   "views": {
     "Chloroplast": {
-      "uiSelectionGroup": "em_segmentation",
+      "isExclusive": false,
       "sourceDisplays": [
         {
           "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "lut": "glasbey",
+            "name": "Chloroplast",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
             "sources": [
               "Chloroplast"
             ],
-            "showSelectedSegmentsIn3d": false,
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Chromosomes": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
             "lut": "glasbey",
-            "showScatterPlot": false,
+            "name": "Chromosomes",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
             "scatterPlotAxes": [
               "anchor_x",
               "anchor_y"
             ],
-            "showTable": true,
             "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Chloroplast",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Chromosomes": {
-      "uiSelectionGroup": "em_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
             "sources": [
               "Chromosomes"
             ],
-            "showSelectedSegmentsIn3d": false,
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Cilia": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
             "lut": "glasbey",
-            "showScatterPlot": false,
+            "name": "Cilia",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
             "scatterPlotAxes": [
               "anchor_x",
               "anchor_y"
             ],
-            "showTable": true,
             "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Chromosomes",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Cilia": {
-      "uiSelectionGroup": "em_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
             "sources": [
               "Cilia"
             ],
-            "showSelectedSegmentsIn3d": false,
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Eyespots": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
             "lut": "glasbey",
-            "showScatterPlot": false,
+            "name": "Eyespots",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
             "scatterPlotAxes": [
               "anchor_x",
               "anchor_y"
             ],
-            "showTable": true,
             "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Cilia",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Eyespots": {
-      "uiSelectionGroup": "em_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
             "sources": [
               "Eyespots"
             ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Eyespots",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
+            "visible": true
           }
         }
       ],
-      "isExclusive": false
-    },
-    "Filaments_nucleolus": {
-      "uiSelectionGroup": "em_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Filaments_nucleolus"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Filaments_nucleolus",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Golgi": {
-      "uiSelectionGroup": "em_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Golgi"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Golgi",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Mucocysts": {
-      "uiSelectionGroup": "em_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Mucocysts"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Mucocysts",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Nuclear_envelope": {
-      "uiSelectionGroup": "em_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Nuclear_envelope"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Nuclear_envelope",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Nucleolus": {
-      "uiSelectionGroup": "em_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Nucleolus"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Nucleolus",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Sheets_of_filaments": {
-      "uiSelectionGroup": "em_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Sheets_of_filaments"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Sheets_of_filaments",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Starch": {
-      "uiSelectionGroup": "em_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Starch"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Starch",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Theca": {
-      "uiSelectionGroup": "em_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Theca"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Theca",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Trichocysts": {
-      "uiSelectionGroup": "em_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Trichocysts"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Trichocysts",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "default": {
-      "uiSelectionGroup": "bookmark",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "photosynthetic_dinoflagellate"
-            ],
-            "color": "white",
-            "contrastLimits": [
-              0.0,
-              255.0
-            ],
-            "showImagesIn3d": false,
-            "name": "photosynthetic_dinoflagellate",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "photosynthetic_dinoflagellate": {
-      "uiSelectionGroup": "images",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "photosynthetic_dinoflagellate"
-            ],
-            "color": "white",
-            "contrastLimits": [
-              0.0,
-              255.0
-            ],
-            "showImagesIn3d": false,
-            "name": "photosynthetic_dinoflagellate",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "FM_pre-trim_BF": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_pre-trim_BF"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              10.0,
-              255.0
-            ],
-            "showImagesIn3d": false,
-            "name": "FM_pre-trim_BF",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "FM_pre-trim_BF"
-    },
-    "FM_pre-trim_Ch1": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_pre-trim_Ch1"
-            ],
-            "color": "r=255,g=0,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              27.0
-            ],
-            "showImagesIn3d": false,
-            "name": "FM_pre-trim_Ch1",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "FM_pre-trim_Ch1"
-    },
-    "FM_pre-trim_Ch2": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_pre-trim_Ch2"
-            ],
-            "color": "r=0,g=255,b=0,a=255",
-            "contrastLimits": [
-              0.0,
-              55.0
-            ],
-            "showImagesIn3d": false,
-            "name": "FM_pre-trim_Ch2",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "FM_pre-trim_Ch2"
-    },
-    "FM_pre-trim_RL": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_pre-trim_RL"
-            ],
-            "color": "r=0,g=255,b=255,a=255",
-            "contrastLimits": [
-              2.0,
-              3.0
-            ],
-            "showImagesIn3d": false,
-            "name": "FM_pre-trim_RL",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "FM_pre-trim_RL"
-    },
-    "FM_trim_BF": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_trim_BF"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              8.0,
-              255.0
-            ],
-            "showImagesIn3d": false,
-            "name": "FM_trim_BF",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "FM_trim_BF"
-    },
-    "FM_trim_Ch1": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_trim_Ch1"
-            ],
-            "color": "r=255,g=0,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              210.0
-            ],
-            "showImagesIn3d": false,
-            "name": "FM_trim_Ch1",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "FM_trim_Ch1"
-    },
-    "FM_trim_Ch2": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_trim_Ch2"
-            ],
-            "color": "r=0,g=255,b=0,a=255",
-            "contrastLimits": [
-              0.0,
-              37.0
-            ],
-            "showImagesIn3d": false,
-            "name": "FM_trim_Ch2",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "FM_trim_Ch2"
-    },
-    "FM_trim_RL": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_trim_RL"
-            ],
-            "color": "r=0,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              255.0
-            ],
-            "showImagesIn3d": false,
-            "name": "FM_trim_RL",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "FM_trim_RL"
+      "uiSelectionGroup": "em_segmentation"
     },
     "FM_full_BF": {
-      "uiSelectionGroup": "Fluorescence",
+      "isExclusive": false,
+      "name": "FM_full_BF",
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "FM_full_BF",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
             "sources": [
               "FM_full_BF"
             ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              255.0
-            ],
-            "showImagesIn3d": false,
-            "name": "FM_full_BF",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
+            "visible": true
           }
         }
       ],
-      "isExclusive": false,
-      "name": "FM_full_BF"
+      "uiSelectionGroup": "Fluorescence"
     },
     "FM_full_Ch1": {
-      "uiSelectionGroup": "Fluorescence",
+      "isExclusive": false,
+      "name": "FM_full_Ch1",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "sources": [
-              "FM_full_Ch1"
-            ],
+            "blendingMode": "sum",
             "color": "r=255,g=0,b=255,a=255",
             "contrastLimits": [
               0.0,
               44.0
             ],
-            "showImagesIn3d": false,
             "name": "FM_full_Ch1",
             "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_full_Ch1"
+            ],
+            "visible": true
           }
         }
       ],
-      "isExclusive": false,
-      "name": "FM_full_Ch1"
+      "uiSelectionGroup": "Fluorescence"
     },
     "FM_full_Ch2": {
-      "uiSelectionGroup": "Fluorescence",
+      "isExclusive": false,
+      "name": "FM_full_Ch2",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "sources": [
-              "FM_full_Ch2"
-            ],
+            "blendingMode": "sum",
             "color": "r=0,g=255,b=0,a=255",
             "contrastLimits": [
               0.0,
               81.0
             ],
-            "showImagesIn3d": false,
             "name": "FM_full_Ch2",
             "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_full_Ch2"
+            ],
+            "visible": true
           }
         }
       ],
-      "isExclusive": false,
-      "name": "FM_full_Ch2"
+      "uiSelectionGroup": "Fluorescence"
     },
     "FM_full_RL": {
-      "uiSelectionGroup": "Fluorescence",
+      "isExclusive": false,
+      "name": "FM_full_RL",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "sources": [
-              "FM_full_RL"
-            ],
             "color": "r=0,g=255,b=255,a=255",
             "contrastLimits": [
               0.0,
               84.0
             ],
-            "showImagesIn3d": false,
             "name": "FM_full_RL",
             "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_full_RL"
+            ],
             "visible": true
           }
         }
       ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "FM_pre-trim_BF": {
       "isExclusive": false,
-      "name": "FM_full_RL"
+      "name": "FM_pre-trim_BF",
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              10.0,
+              255.0
+            ],
+            "name": "FM_pre-trim_BF",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_pre-trim_BF"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "FM_pre-trim_Ch1": {
+      "isExclusive": false,
+      "name": "FM_pre-trim_Ch1",
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=0,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              27.0
+            ],
+            "name": "FM_pre-trim_Ch1",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_pre-trim_Ch1"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "FM_pre-trim_Ch2": {
+      "isExclusive": false,
+      "name": "FM_pre-trim_Ch2",
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              0.0,
+              55.0
+            ],
+            "name": "FM_pre-trim_Ch2",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_pre-trim_Ch2"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "FM_pre-trim_RL": {
+      "isExclusive": false,
+      "name": "FM_pre-trim_RL",
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=255,a=255",
+            "contrastLimits": [
+              2.0,
+              3.0
+            ],
+            "name": "FM_pre-trim_RL",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_pre-trim_RL"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "FM_trim_BF": {
+      "isExclusive": false,
+      "name": "FM_trim_BF",
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              8.0,
+              255.0
+            ],
+            "name": "FM_trim_BF",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_BF"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "FM_trim_Ch1": {
+      "isExclusive": false,
+      "name": "FM_trim_Ch1",
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=0,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              210.0
+            ],
+            "name": "FM_trim_Ch1",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_Ch1"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "FM_trim_Ch2": {
+      "isExclusive": false,
+      "name": "FM_trim_Ch2",
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              0.0,
+              37.0
+            ],
+            "name": "FM_trim_Ch2",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_Ch2"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "FM_trim_RL": {
+      "isExclusive": false,
+      "name": "FM_trim_RL",
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "FM_trim_RL",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_RL"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "Filaments_nucleolus": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "lut": "glasbey",
+            "name": "Filaments_nucleolus",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Filaments_nucleolus"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Golgi": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "lut": "glasbey",
+            "name": "Golgi",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Golgi"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Mucocysts": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "lut": "glasbey",
+            "name": "Mucocysts",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Mucocysts"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Nuclear_envelope": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "lut": "glasbey",
+            "name": "Nuclear_envelope",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Nuclear_envelope"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Nucleolus": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "lut": "glasbey",
+            "name": "Nucleolus",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Nucleolus"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Sheets_of_filaments": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "lut": "glasbey",
+            "name": "Sheets_of_filaments",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Sheets_of_filaments"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Starch": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "lut": "glasbey",
+            "name": "Starch",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Starch"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Theca": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "lut": "glasbey",
+            "name": "Theca",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Theca"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "Trichocysts": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "lut": "glasbey",
+            "name": "Trichocysts",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Trichocysts"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "em_segmentation"
+    },
+    "default": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "photosynthetic_dinoflagellate",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "photosynthetic_dinoflagellate"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmark"
+    },
+    "photosynthetic_dinoflagellate": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "photosynthetic_dinoflagellate",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "photosynthetic_dinoflagellate"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "images"
     }
   }
 }
