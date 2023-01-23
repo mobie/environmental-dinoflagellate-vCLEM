@@ -1852,6 +1852,161 @@
       },
       "isExclusive": true,
       "name": ""
+    },
+    "view1": {
+      "uiSelectionGroup": "bookmark",
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "sources": [
+              "FM_trim_BF"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              247.59780519999998
+            ],
+            "showImagesIn3d": false,
+            "name": "FM_trim_BF",
+            "opacity": 1.0,
+            "visible": false,
+            "blendingMode": "sum"
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "FM_trim_Ch1"
+            ],
+            "color": "r=255,g=0,b=255,a=255",
+            "contrastLimits": [
+              11.0,
+              118.0
+            ],
+            "showImagesIn3d": false,
+            "name": "FM_trim_Ch1",
+            "opacity": 1.0,
+            "visible": true,
+            "blendingMode": "sum"
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "FM_trim_Ch2"
+            ],
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              8.0,
+              128.0
+            ],
+            "showImagesIn3d": false,
+            "name": "FM_trim_Ch2",
+            "opacity": 1.0,
+            "visible": true,
+            "blendingMode": "sum"
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "FM_trim_RL"
+            ],
+            "color": "r=0,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "showImagesIn3d": false,
+            "name": "FM_trim_RL",
+            "opacity": 1.0,
+            "visible": true,
+            "blendingMode": "sum"
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "photosynthetic_dinoflagellate"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              47.8125,
+              180.6165
+            ],
+            "showImagesIn3d": false,
+            "name": "photosynthetic_dinoflagellate",
+            "opacity": 1.0,
+            "visible": true,
+            "blendingMode": "sum"
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726E-23,
+              6.938893903907227E-18,
+              94.69780764707536,
+              3.469446951953614E-18,
+              -4.747878885203765E-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735E-23,
+              0.9999999999999998,
+              4.747878885203768E-16,
+              11.297899906604163
+            ],
+            "name": "manualTransform",
+            "sources": [
+              "photosynthetic_dinoflagellate"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726E-23,
+              6.938893903907227E-18,
+              94.69780764707536,
+              3.469446951953614E-18,
+              -4.747878885203765E-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735E-23,
+              0.9999999999999998,
+              4.747878885203768E-16,
+              11.297899906604163
+            ],
+            "name": "manualTransform",
+            "sources": [
+              "photosynthetic_dinoflagellate"
+            ]
+          }
+        }
+      ],
+      "viewerTransform": {
+        "normalizedAffine": [
+          -0.2803545339565001,
+          -0.11900343927471478,
+          -2.642462655987311E-17,
+          8.135914301169503,
+          -0.11900343927471478,
+          0.2803545339565001,
+          6.225251899708623E-17,
+          43.66386716230542,
+          5.6310997423618785E-33,
+          6.762867003210498E-17,
+          -0.3045660573162693,
+          7.068907762745227
+        ],
+        "timepoint": 0
+      },
+      "isExclusive": true,
+      "name": ""
     }
   }
 }
