@@ -842,6 +842,7 @@
             ],
             "showSelectedSegmentsIn3d": false,
             "colorByColumn": "annotationColor",
+            "tableSource": "Chloroplast",
             "lut": "argbColumn",
             "showScatterPlot": false,
             "scatterPlotAxes": [
