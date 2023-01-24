@@ -841,7 +841,8 @@
               "Chloroplast"
             ],
             "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
             "showScatterPlot": false,
             "scatterPlotAxes": [
               "anchor_x",
