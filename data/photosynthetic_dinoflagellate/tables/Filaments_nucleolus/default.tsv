@@ -1,4 +1,4 @@
-label_id	anchor_x	anchor_y	anchor_z	bb_min_x	bb_min_y	bb_min_z	bb_max_x	bb_max_y	bb_max_z	n_pixels	annotationColor
-1	10.380	12.089	6.049	9.44	11.504	5.424	11.088	13.04	6.704	5669	188-188-255-255
-2	11.125	13.200	6.345	10.96	12.992	6.144	11.28	13.408	6.56	6184	192-178-255-255
-3	9.467	12.209	6.661	9.36	12.128	6.576	9.6	12.304	6.752	985	178-192-255-255
+label_id	source	anchor_x	anchor_y	anchor_z	bb_min_x	bb_min_y	bb_min_z	bb_max_x	bb_max_y	bb_max_z	n_pixels	annotationColor
+1	filament1	10.380	12.089	6.049	9.44	11.504	5.424	11.088	13.04	6.704	5669	188-188-255-255
+2	filament2	11.125	13.200	6.345	10.96	12.992	6.144	11.28	13.408	6.56	6184	192-178-255-255
+3	filament3	9.467	12.209	6.661	9.36	12.128	6.576	9.6	12.304	6.752	985	178-192-255-255
