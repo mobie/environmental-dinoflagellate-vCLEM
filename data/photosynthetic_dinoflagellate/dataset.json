@@ -871,7 +871,9 @@
               "Chromosomes"
             ],
             "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
+            "colorByColumn": "annotationColor",
+            "tableSource": "Chromosomes",
+            "lut": "argbColumn",
             "showScatterPlot": false,
             "scatterPlotAxes": [
               "anchor_x",
@@ -880,7 +882,6 @@
             "showTable": true,
             "showAsBoundaries": false,
             "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
             "opacityNotSelected": 0.15,
             "name": "Chromosomes",
             "opacity": 0.5,
@@ -929,7 +930,9 @@
               "Eyespots"
             ],
             "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
+            "colorByColumn": "annotationColor",
+            "tableSource": "Eyespots",
+            "lut": "argbColumn",
             "showScatterPlot": false,
             "scatterPlotAxes": [
               "anchor_x",
@@ -938,7 +941,6 @@
             "showTable": true,
             "showAsBoundaries": false,
             "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
             "opacityNotSelected": 0.15,
             "name": "Eyespots",
             "opacity": 0.5,
