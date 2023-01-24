@@ -851,7 +851,6 @@
             "showTable": true,
             "showAsBoundaries": false,
             "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
             "opacityNotSelected": 0.15,
             "name": "Chloroplast",
             "opacity": 0.5,
