@@ -990,7 +990,9 @@
               "Golgi"
             ],
             "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
+            "colorByColumn": "annotationColor",
+            "tableSource": "Golgi",
+            "lut": "argbColumn",
             "showScatterPlot": false,
             "scatterPlotAxes": [
               "anchor_x",
@@ -999,7 +1001,6 @@
             "showTable": true,
             "showAsBoundaries": false,
             "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
             "opacityNotSelected": 0.15,
             "name": "Golgi",
             "opacity": 0.5,
