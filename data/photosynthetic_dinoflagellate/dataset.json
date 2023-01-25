@@ -1227,7 +1227,9 @@
               "Mucocysts"
             ],
             "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
+            "colorByColumn": "annotationColor",
+            "tableSource": ["muco1","muco2","muco3","muco4","muco5","muco6","muco7","muco8","muco9","muco10","muco11","muco12","muco13","muco14","muco15","muco16","muco17","muco18","muco19","muco20","muco21","muco22","muco23","muco24","muco25","muco26","muco27","muco28","muco29","muco30"],
+            "lut": "argbColumn",
             "showScatterPlot": false,
             "scatterPlotAxes": [
               "anchor_x",
@@ -1236,7 +1238,6 @@
             "showTable": true,
             "showAsBoundaries": false,
             "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
             "opacityNotSelected": 0.15,
             "name": "Mucocysts",
             "opacity": 0.5,
