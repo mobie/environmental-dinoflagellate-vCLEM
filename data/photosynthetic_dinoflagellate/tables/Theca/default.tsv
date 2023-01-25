@@ -1,2 +1,2 @@
-label_id	anchor_x	anchor_y	anchor_z	bb_min_x	bb_min_y	bb_min_z	bb_max_x	bb_max_y	bb_max_z	n_pixels
-1.0	11.2	13.98	7.7	4.48	6.91	0.	18.14	20.91	15.01	246280960.0
+label_id	source	anchor_x	anchor_y	anchor_z	bb_min_x	bb_min_y	bb_min_z	bb_max_x	bb_max_y	bb_max_z	n_pixels	annotationColor
+1.0	Theca	11.2	13.98	7.7	4.48	6.91	0.	18.14	20.91	15.01	246280960.0	150-144-163-255

@@ -1,4 +1,4 @@
-label_id	anchor_x	anchor_y	anchor_z	bb_min_x	bb_min_y	bb_min_z	bb_max_x	bb_max_y	bb_max_z	n_pixels
-1	10.92	17.90	7.61	10.35	16.91	7.09	11.33	18.59	8.06	4445
-2	12.20	17.86	9.52	11.49	17.65	9.17	12.94	18.00	9.84	6077
-3	11.77	17.91	9.20	11.07	17.57	8.96	13.14	18.13	9.97	4898
+label_id	source	anchor_x	anchor_y	anchor_z	bb_min_x	bb_min_y	bb_min_z	bb_max_x	bb_max_y	bb_max_z	n_pixels	annotationColor
+1	sheet1	10.92	17.90	7.61	10.35	16.91	7.09	11.33	18.59	8.06	4445	255-228-54-255
+2	sheet2	12.20	17.86	9.52	11.49	17.65	9.17	12.94	18.00	9.84	6077	255-228-54-255
+3	sheet3	11.77	17.91	9.20	11.07	17.57	8.96	13.14	18.13	9.97	4898	255-228-54-255

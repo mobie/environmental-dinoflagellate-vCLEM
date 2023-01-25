@@ -1157,7 +1157,7 @@
             ],
             "name": "manualTransform",
             "sources": [
-              "Filaments_nucleus"
+              "Filaments_nucleolus"
             ]
           }
         }
@@ -1281,7 +1281,9 @@
               "Nuclear_envelope"
             ],
             "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
+            "colorByColumn": "annotationColor",
+            "tableSource": "NE",
+            "lut": "argbColumn",
             "showScatterPlot": false,
             "scatterPlotAxes": [
               "anchor_x",
@@ -1290,7 +1292,6 @@
             "showTable": true,
             "showAsBoundaries": false,
             "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
             "opacityNotSelected": 0.15,
             "name": "Nuclear_envelope",
             "opacity": 0.5,
@@ -1334,7 +1335,9 @@
               "Nucleolus"
             ],
             "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
+            "colorByColumn": "annotationColor",
+            "tableSource": "Eyespots",
+            "lut": "argbColumn",
             "showScatterPlot": false,
             "scatterPlotAxes": [
               "anchor_x",
@@ -1343,7 +1346,6 @@
             "showTable": true,
             "showAsBoundaries": false,
             "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
             "opacityNotSelected": 0.15,
             "name": "Nucleolus",
             "opacity": 0.5,
@@ -1387,7 +1389,9 @@
               "Sheets_of_filaments"
             ],
             "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
+            "colorByColumn": "annotationColor",
+            "tableSource": ["sheet1","sheet2","sheet3"],
+            "lut": "argbColumn",
             "showScatterPlot": false,
             "scatterPlotAxes": [
               "anchor_x",
@@ -1396,7 +1400,6 @@
             "showTable": true,
             "showAsBoundaries": false,
             "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
             "opacityNotSelected": 0.15,
             "name": "Sheets_of_filaments",
             "opacity": 0.5,
@@ -1440,7 +1443,9 @@
               "Starch"
             ],
             "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
+            "colorByColumn": "annotationColor",
+            "tableSource": ["Starch1","Starch2"],
+            "lut": "argbColumn",
             "showScatterPlot": false,
             "scatterPlotAxes": [
               "anchor_x",
@@ -1449,7 +1454,6 @@
             "showTable": true,
             "showAsBoundaries": false,
             "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
             "opacityNotSelected": 0.15,
             "name": "Starch",
             "opacity": 0.5,
@@ -1493,7 +1497,9 @@
               "Theca"
             ],
             "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
+            "colorByColumn": "annotationColor",
+            "tableSource": "Theca",
+            "lut": "argbColumn",
             "showScatterPlot": false,
             "scatterPlotAxes": [
               "anchor_x",
@@ -1502,7 +1508,6 @@
             "showTable": true,
             "showAsBoundaries": false,
             "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
             "opacityNotSelected": 0.15,
             "name": "Theca",
             "opacity": 0.5,
