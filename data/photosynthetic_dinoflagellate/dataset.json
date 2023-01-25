@@ -1960,7 +1960,7 @@
             "color": "r=0,g=255,b=0,a=255",
             "contrastLimits": [
               0.0,
-              55.0
+              400.0
             ],
             "showImagesIn3d": false,
             "name": "FM_pre-trim_488nm",
