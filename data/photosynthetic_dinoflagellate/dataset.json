@@ -297,11 +297,11 @@
         "name": "FM_pre-trim_Ch2"
       }
     },
-    "Cilia": {
+    "Flagella": {
       "segmentation": {
         "tableData": {
           "tsv": {
-            "relativePath": "tables/Cilia",
+            "relativePath": "tables/Flagella",
             "channel": 0
           }
         },
@@ -315,7 +315,7 @@
             "channel": 0
           }
         },
-        "name": "Cilia"
+        "name": "Flagella"
       }
     },
     "Trichocysts": {
@@ -1002,17 +1002,17 @@
       ],
       "isExclusive": false
     },
-    "Cilia": {
+    "Flagella": {
       "uiSelectionGroup": "EM_segmentation",
       "sourceDisplays": [
         {
           "segmentationDisplay": {
             "sources": [
-              "Cilia"
+              "Flagella"
             ],
             "showSelectedSegmentsIn3d": false,
             "colorByColumn": "annotationColor",
-            "tableSource": ["Cilia1","Cilia2","Cilia3","Cilia4"],
+            "tableSource": ["Base1","Base2","Body1","Body2"],
             "lut": "argbColumn",
             "showScatterPlot": false,
             "scatterPlotAxes": [
@@ -1023,7 +1023,7 @@
             "showAsBoundaries": false,
             "boundaryThickness": 1.0,
             "opacityNotSelected": 0.15,
-            "name": "Cilia",
+            "name": "Flagella",
             "opacity": 0.5,
             "visible": true,
             "blendingMode": "alpha"
