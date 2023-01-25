@@ -1011,7 +1011,9 @@
               "Cilia"
             ],
             "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
+            "colorByColumn": "annotationColor",
+            "tableSource": "Cilia",
+            "lut": "argbColumn",
             "showScatterPlot": false,
             "scatterPlotAxes": [
               "anchor_x",
@@ -1020,7 +1022,6 @@
             "showTable": true,
             "showAsBoundaries": false,
             "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
             "opacityNotSelected": 0.15,
             "name": "Cilia",
             "opacity": 0.5,
