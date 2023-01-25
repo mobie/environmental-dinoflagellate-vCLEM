@@ -1012,7 +1012,7 @@
             ],
             "showSelectedSegmentsIn3d": false,
             "colorByColumn": "annotationColor",
-            "tableSource": "Cilia",
+            "tableSource": ["Cilia1","Cilia2","Cilia3","Cilia4"],
             "lut": "argbColumn",
             "showScatterPlot": false,
             "scatterPlotAxes": [
