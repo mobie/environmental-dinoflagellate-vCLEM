@@ -554,8 +554,8 @@
             ],
             "color": "white",
             "contrastLimits": [
-              0.0,
-              255.0
+              47.0,
+              180.0
             ],
             "showImagesIn3d": false,
             "name": "photosynthetic_dinoflagellate",
@@ -608,7 +608,7 @@
       },
       "isExclusive": false
     },
-    "FM_fullblock_BF": {
+    "LM_fullblock_BF": {
       "uiSelectionGroup": "Fluorescence",
       "sourceDisplays": [
         {
@@ -622,7 +622,7 @@
               255.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_full_BF",
+            "name": "LM_full_BF",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -657,9 +657,9 @@
         }
       ],
       "isExclusive": false,
-      "name": "FM_full_BF"
+      "name": "LM_full_BF"
     },
-    "FM_fullblock_633nm": {
+    "LM_fullblock_633nm": {
       "uiSelectionGroup": "Fluorescence",
       "sourceDisplays": [
         {
@@ -673,7 +673,7 @@
               44.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_full_633nm",
+            "name": "LM_full_633nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -708,9 +708,9 @@
         }
       ],
       "isExclusive": false,
-      "name": "FM_full_633nm"
+      "name": "LM_full_633nm"
     },
-    "FM_fullblock_488nm": {
+    "LM_fullblock_488nm": {
       "uiSelectionGroup": "Fluorescence",
       "sourceDisplays": [
         {
@@ -724,7 +724,7 @@
               81.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_full_488nm",
+            "name": "LM_full_488nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -759,9 +759,9 @@
         }
       ],
       "isExclusive": false,
-      "name": "FM_full_488nm"
+      "name": "LM_full_488nm"
     },
-    "FM_fullblock_RL": {
+    "LM_fullblock_RL": {
       "uiSelectionGroup": "Fluorescence",
       "sourceDisplays": [
         {
@@ -775,7 +775,7 @@
               84.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_full_RL",
+            "name": "LM_full_RL",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -810,9 +810,9 @@
         }
       ],
       "isExclusive": false,
-      "name": "FM_full_RL"
+      "name": "LM_full_RL"
     },
-    "FM_pre-trim_BF": {
+    "LM_pre-trim_BF": {
       "uiSelectionGroup": "Fluorescence",
       "sourceDisplays": [
         {
@@ -826,7 +826,7 @@
               255.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_pre-trim_BF",
+            "name": "LM_pre-trim_BF",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -861,9 +861,9 @@
         }
       ],
       "isExclusive": false,
-      "name": "FM_pre-trim_BF"
+      "name": "LM_pre-trim_BF"
     },
-    "FM_pre-trim_633nm": {
+    "LM_pre-trim_633nm": {
       "uiSelectionGroup": "Fluorescence",
       "sourceDisplays": [
         {
@@ -873,11 +873,11 @@
             ],
             "color": "r=255,g=0,b=255,a=255",
             "contrastLimits": [
-              0.0,
-              27.0
+              11.0,
+              118.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_pre-trim_633nm",
+            "name": "LM_pre-trim_633nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -912,9 +912,9 @@
         }
       ],
       "isExclusive": false,
-      "name": "FM_pre-trim_633nm"
+      "name": "LM_pre-trim_633nm"
     },
-    "FM_pre-trim_488nm": {
+    "LM_pre-trim_488nm": {
       "uiSelectionGroup": "Fluorescence",
       "sourceDisplays": [
         {
@@ -924,11 +924,11 @@
             ],
             "color": "r=0,g=255,b=0,a=255",
             "contrastLimits": [
-              0.0,
-              55.0
+              8.0,
+              128.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_pre-trim_488nm",
+            "name": "LM_pre-trim_488nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -963,9 +963,9 @@
         }
       ],
       "isExclusive": false,
-      "name": "FM_pre-trim_488nm"
+      "name": "LM_pre-trim_488nm"
     },
-    "FM_pre-trim_RL": {
+    "LM_pre-trim_RL": {
       "uiSelectionGroup": "Fluorescence",
       "sourceDisplays": [
         {
@@ -979,7 +979,7 @@
               3.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_pre-trim_RL",
+            "name": "LM_pre-trim_RL",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -1014,9 +1014,9 @@
         }
       ],
       "isExclusive": false,
-      "name": "FM_pre-trim_RL"
+      "name": "LM_pre-trim_RL"
     },
-    "FM_trim_BF": {
+    "LM_trim_BF": {
       "uiSelectionGroup": "Fluorescence",
       "sourceDisplays": [
         {
@@ -1030,7 +1030,7 @@
               255.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_trim_BF",
+            "name": "LM_trim_BF",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -1038,9 +1038,9 @@
         }
       ],
       "isExclusive": false,
-      "name": "FM_trim_BF"
+      "name": "LM_trim_BF"
     },
-    "FM_trim_633nm": {
+    "LM_trim_633nm": {
       "uiSelectionGroup": "Fluorescence",
       "sourceDisplays": [
         {
@@ -1050,11 +1050,11 @@
             ],
             "color": "r=255,g=0,b=255,a=255",
             "contrastLimits": [
-              0.0,
-              210.0
+              11.0,
+              118.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_trim_633nm",
+            "name": "LM_trim_633nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -1062,9 +1062,9 @@
         }
       ],
       "isExclusive": false,
-      "name": "FM_trim_633nm"
+      "name": "LM_trim_633nm"
     },
-    "FM_trim_488nm": {
+    "LM_trim_488nm": {
       "uiSelectionGroup": "Fluorescence",
       "sourceDisplays": [
         {
@@ -1074,11 +1074,11 @@
             ],
             "color": "r=0,g=255,b=0,a=255",
             "contrastLimits": [
-              0.0,
-              37.0
+              8.0,
+              128.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_trim_488nm",
+            "name": "LM_trim_488nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -1086,9 +1086,9 @@
         }
       ],
       "isExclusive": false,
-      "name": "FM_trim_488nm"
+      "name": "LM_trim_488nm"
     },
-    "FM_trim_RL": {
+    "LM_trim_RL": {
       "uiSelectionGroup": "Fluorescence",
       "sourceDisplays": [
         {
@@ -1102,7 +1102,7 @@
               255.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_trim_RL",
+            "name": "LM_trim_RL",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -1110,7 +1110,7 @@
         }
       ],
       "isExclusive": false,
-      "name": "FM_trim_RL"
+      "name": "LM_trim_RL"
     },
     "Cell": {
       "uiSelectionGroup": "EM_segmentation",
@@ -1827,7 +1827,7 @@
               44.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_full_633nm",
+            "name": "LM_full_633nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -1844,7 +1844,7 @@
               81.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_full_488nm",
+            "name": "LM_full_488nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -1861,7 +1861,7 @@
               84.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_full_RL",
+            "name": "LM_full_RL",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -1878,7 +1878,7 @@
               255.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_full_BF",
+            "name": "LM_full_BF",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -1942,11 +1942,11 @@
             ],
             "color": "r=255,g=0,b=255,a=255",
             "contrastLimits": [
-              0.0,
-              60.307199999999995
+              11.0,
+              118.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_pre-trim_633nm",
+            "name": "LM_pre-trim_633nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -1959,11 +1959,11 @@
             ],
             "color": "r=0,g=255,b=0,a=255",
             "contrastLimits": [
-              0.0,
-              400.0
+              8.0,
+              128.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_pre-trim_488nm",
+            "name": "LM_pre-trim_488nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -1980,7 +1980,7 @@
               255.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_pre-trim_BF",
+            "name": "LM_pre-trim_BF",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -1997,7 +1997,7 @@
               74.3835
             ],
             "showImagesIn3d": false,
-            "name": "FM_pre-trim_RL",
+            "name": "LM_pre-trim_RL",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -2051,7 +2051,7 @@
       "isExclusive": true,
       "name": ""
     },
-    "FM_trimmed-branded": {
+    "LM_trimmed-branded": {
       "uiSelectionGroup": "Light_microscopy_views",
       "sourceDisplays": [
         {
@@ -2065,7 +2065,7 @@
               247.59780519999998
             ],
             "showImagesIn3d": false,
-            "name": "FM_trim_BF",
+            "name": "LM_trim_BF",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -2082,7 +2082,7 @@
               75.11606760000001
             ],
             "showImagesIn3d": false,
-            "name": "FM_trim_633nm",
+            "name": "LM_trim_633nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -2099,7 +2099,7 @@
               70.3037
             ],
             "showImagesIn3d": false,
-            "name": "FM_trim_488nm",
+            "name": "LM_trim_488nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -2116,7 +2116,7 @@
               255.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_trim_RL",
+            "name": "LM_trim_RL",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -2158,7 +2158,7 @@
               247.59780519999998
             ],
             "showImagesIn3d": false,
-            "name": "FM_trim_BF",
+            "name": "LM_trim_BF",
             "opacity": 1.0,
             "visible": false,
             "blendingMode": "sum"
@@ -2175,7 +2175,7 @@
               118.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_trim_633nm",
+            "name": "LM_trim_633nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -2192,7 +2192,7 @@
               128.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_trim_488nm",
+            "name": "LM_trim_488nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -2209,7 +2209,7 @@
               255.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_trim_RL",
+            "name": "LM_trim_RL",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -2291,7 +2291,7 @@
               55.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_pre-trim_488nm",
+            "name": "LM_pre-trim_488nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -2308,7 +2308,7 @@
               37.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_trim_488nm",
+            "name": "LM_trim_488nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -2376,7 +2376,7 @@
               44.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_full_633nm",
+            "name": "LM_full_633nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
@@ -2393,7 +2393,7 @@
               255.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_full_BF",
+            "name": "LM_full_BF",
             "opacity": 1.0,
             "visible": false,
             "blendingMode": "sum"
@@ -2427,7 +2427,7 @@
               210.0
             ],
             "showImagesIn3d": false,
-            "name": "FM_trim_633nm",
+            "name": "LM_trim_633nm",
             "opacity": 1.0,
             "visible": true,
             "blendingMode": "sum"
