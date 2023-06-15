@@ -888,8 +888,7 @@
       "sourceDisplays": [
         {
           "segmentationDisplay": {
-            "blendingMode": "alpha",
-            "boundaryThickness": 1.0,
+                   "boundaryThickness": 1.0,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
             "name": "Cell",
@@ -942,8 +941,7 @@
       "sourceDisplays": [
         {
           "segmentationDisplay": {
-            "blendingMode": "alpha",
-            "boundaryThickness": 1.0,
+                   "boundaryThickness": 1.0,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
             "name": "Chloroplast",
@@ -996,8 +994,7 @@
       "sourceDisplays": [
         {
           "segmentationDisplay": {
-            "blendingMode": "alpha",
-            "boundaryThickness": 1.0,
+                   "boundaryThickness": 1.0,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
             "name": "Chromosomes",
@@ -1050,8 +1047,7 @@
       "sourceDisplays": [
         {
           "segmentationDisplay": {
-            "blendingMode": "alpha",
-            "boundaryThickness": 1.0,
+                   "boundaryThickness": 1.0,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
             "name": "Eyespots",
@@ -1104,8 +1100,7 @@
       "sourceDisplays": [
         {
           "segmentationDisplay": {
-            "blendingMode": "alpha",
-            "boundaryThickness": 1.0,
+                   "boundaryThickness": 1.0,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
             "name": "Filaments_nucleolus",
@@ -1158,8 +1153,7 @@
       "sourceDisplays": [
         {
           "segmentationDisplay": {
-            "blendingMode": "alpha",
-            "boundaryThickness": 1.0,
+                   "boundaryThickness": 1.0,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
             "name": "Flagella",
@@ -1212,8 +1206,7 @@
       "sourceDisplays": [
         {
           "segmentationDisplay": {
-            "blendingMode": "alpha",
-            "boundaryThickness": 1.0,
+                   "boundaryThickness": 1.0,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
             "name": "Golgi",
@@ -2126,8 +2119,7 @@
       "sourceDisplays": [
         {
           "segmentationDisplay": {
-            "blendingMode": "alpha",
-            "boundaryThickness": 1.0,
+                   "boundaryThickness": 1.0,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
             "name": "Mucocysts",
@@ -2180,8 +2172,7 @@
       "sourceDisplays": [
         {
           "segmentationDisplay": {
-            "blendingMode": "alpha",
-            "boundaryThickness": 1.0,
+                   "boundaryThickness": 1.0,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
             "name": "Nucleolus",
@@ -2234,8 +2225,7 @@
       "sourceDisplays": [
         {
           "segmentationDisplay": {
-            "blendingMode": "alpha",
-            "boundaryThickness": 1.0,
+                   "boundaryThickness": 1.0,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
             "name": "Nucleus",
@@ -2288,8 +2278,7 @@
       "sourceDisplays": [
         {
           "segmentationDisplay": {
-            "blendingMode": "alpha",
-            "boundaryThickness": 1.0,
+                   "boundaryThickness": 1.0,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
             "name": "Sheets_of_filaments",
@@ -2342,8 +2331,7 @@
       "sourceDisplays": [
         {
           "segmentationDisplay": {
-            "blendingMode": "alpha",
-            "boundaryThickness": 1.0,
+                   "boundaryThickness": 1.0,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
             "name": "Starch",
@@ -2396,8 +2384,7 @@
       "sourceDisplays": [
         {
           "segmentationDisplay": {
-            "blendingMode": "alpha",
-            "boundaryThickness": 1.0,
+                   "boundaryThickness": 1.0,
             "lut": "glasbey",
             "name": "Trichocysts",
             "opacity": 0.5,
@@ -2449,8 +2436,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
-            "color": "r=255,g=255,b=255,a=255",
+                   "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0.0,
               255.0
