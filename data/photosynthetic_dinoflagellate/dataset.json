@@ -1,5 +1,4 @@
 {
-  "is2D": false,
   "defaultLocation": {
     "position": [
       0.0,
@@ -8,2314 +7,1730 @@
     ],
     "timepoint": 0
   },
+  "is2D": false,
   "sources": {
-    "FM_trim_633nm": {
-      "image": {
+    "Chloroplast": {
+      "segmentation": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_trim_633nm.xml",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Chloroplast.xml"
           },
           "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_trim_633nm.xml",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/Chloroplast.xml"
           }
         },
-        "name": "FM_trim_633nm"
-      }
-    },
-    "Nucleus": {
-      "segmentation": {
         "tableData": {
           "tsv": {
-            "relativePath": "tables/Nuclear_envelope",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "tables/Chloroplast"
           }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Nuclear_envelope.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Nuclear_envelope.xml",
-            "channel": 0
-          }
-        },
-        "name": "Nucleus"
-      }
-    },
-    "FM_trim_BF": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_trim_BF.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_trim_BF.xml",
-            "channel": 0
-          }
-        },
-        "name": "FM_trim_BF"
-      }
-    },
-    "Nucleolus": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Nucleolus",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Nucleolus.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Nucleolus.xml",
-            "channel": 0
-          }
-        },
-        "name": "Nucleolus"
-      }
-    },
-    "photosynthetic_dinoflagellate": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/photosynthetic_dinoflagellate.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/photosynthetic_dinoflagellate.xml",
-            "channel": 0
-          }
-        },
-        "name": "photosynthetic_dinoflagellate"
-      }
-    },
-    "Mucocysts": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Mucocysts",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Mucocysts.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Mucocysts.xml",
-            "channel": 0
-          }
-        },
-        "name": "Mucocysts"
-      }
-    },
-    "Filaments_nucleolus": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Filaments_nucleolus",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Filaments_nucleolus.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Filaments_nucleolus.xml",
-            "channel": 0
-          }
-        },
-        "name": "Filaments_nucleolus"
-      }
-    },
-    "FM_pre-trim_488nm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_pre-trim_488nm.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_pre-trim_488nm.xml",
-            "channel": 0
-          }
-        },
-        "name": "FM_pre-trim_488nm"
-      }
-    },
-    "FM_trim_488nm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_trim_488nm.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_trim_488nm.xml",
-            "channel": 0
-          }
-        },
-        "name": "FM_trim_488nm"
-      }
-    },
-    "Golgi": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Golgi",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Golgi.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Golgi.xml",
-            "channel": 0
-          }
-        },
-        "name": "Golgi"
+        }
       }
     },
     "Chromosomes": {
       "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Chromosomes",
-            "channel": 0
-          }
-        },
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/Chromosomes.xml",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Chromosomes.xml"
           },
           "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Chromosomes.xml",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/Chromosomes.xml"
           }
         },
-        "name": "Chromosomes"
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Chromosomes"
+          }
+        }
       }
     },
-    "Sheets_of_filaments": {
+    "Eyespots": {
       "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Eyespots.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/Eyespots.xml"
+          }
+        },
         "tableData": {
           "tsv": {
-            "relativePath": "tables/Sheets_of_filaments",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "tables/Eyespots"
           }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Sheets_of_filaments.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Sheets_of_filaments.xml",
-            "channel": 0
-          }
-        },
-        "name": "Sheets_of_filaments"
-      }
-    },
-    "Chloroplast": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Chloroplast",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Chloroplast.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Chloroplast.xml",
-            "channel": 0
-          }
-        },
-        "name": "Chloroplast"
-      }
-    },
-    "Trichocysts": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Trichocysts",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Trichocysts.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Trichocysts.xml",
-            "channel": 0
-          }
-        },
-        "name": "Trichocysts"
-      }
-    },
-    "FM_pre-trim_633nm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_pre-trim_633nm.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_pre-trim_633nm.xml",
-            "channel": 0
-          }
-        },
-        "name": "FM_pre-trim_633nm"
+        }
       }
     },
     "FM_full_488nm": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_full_488nm.xml",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_full_488nm.xml"
           },
           "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_full_488nm.xml",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/FM_full_488nm.xml"
           }
-        },
-        "name": "FM_full_488nm"
-      }
-    },
-    "Eyespots": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Eyespots",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Eyespots.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Eyespots.xml",
-            "channel": 0
-          }
-        },
-        "name": "Eyespots"
-      }
-    },
-    "Starch": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Starch",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Starch.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Starch.xml",
-            "channel": 0
-          }
-        },
-        "name": "Starch"
+        }
       }
     },
     "FM_full_633nm": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_full_633nm.xml",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_full_633nm.xml"
           },
           "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_full_633nm.xml",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/FM_full_633nm.xml"
           }
-        },
-        "name": "FM_full_633nm"
-      }
-    },
-    "FM_trim_RL": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_trim_RL.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_trim_RL.xml",
-            "channel": 0
-          }
-        },
-        "name": "FM_trim_RL"
-      }
-    },
-    "FM_pre-trim_RL": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_pre-trim_RL.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_pre-trim_RL.xml",
-            "channel": 0
-          }
-        },
-        "name": "FM_pre-trim_RL"
-      }
-    },
-    "FM_full_RL": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_full_RL.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_full_RL.xml",
-            "channel": 0
-          }
-        },
-        "name": "FM_full_RL"
-      }
-    },
-    "FM_pre-trim_BF": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_pre-trim_BF.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_pre-trim_BF.xml",
-            "channel": 0
-          }
-        },
-        "name": "FM_pre-trim_BF"
-      }
-    },
-    "Flagella": {
-      "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Flagella",
-            "channel": 0
-          }
-        },
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/Cilia.xml",
-            "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Cilia.xml",
-            "channel": 0
-          }
-        },
-        "name": "Flagella"
+        }
       }
     },
     "FM_full_BF": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/FM_full_BF.xml",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_full_BF.xml"
           },
           "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_full_BF.xml",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/FM_full_BF.xml"
+          }
+        }
+      }
+    },
+    "FM_full_RL": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_full_RL.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/FM_full_RL.xml"
+          }
+        }
+      }
+    },
+    "FM_pre-trim_488nm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_pre-trim_488nm.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/FM_pre-trim_488nm.xml"
+          }
+        }
+      }
+    },
+    "FM_pre-trim_633nm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_pre-trim_633nm.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/FM_pre-trim_633nm.xml"
+          }
+        }
+      }
+    },
+    "FM_pre-trim_BF": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_pre-trim_BF.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/FM_pre-trim_BF.xml"
+          }
+        }
+      }
+    },
+    "FM_pre-trim_RL": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_pre-trim_RL.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/FM_pre-trim_RL.xml"
+          }
+        }
+      }
+    },
+    "FM_trim_488nm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_trim_488nm.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/FM_trim_488nm.xml"
+          }
+        }
+      }
+    },
+    "FM_trim_633nm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_trim_633nm.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/FM_trim_633nm.xml"
+          }
+        }
+      }
+    },
+    "FM_trim_BF": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_trim_BF.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/FM_trim_BF.xml"
+          }
+        }
+      }
+    },
+    "FM_trim_RL": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/FM_trim_RL.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/FM_trim_RL.xml"
+          }
+        }
+      }
+    },
+    "Filaments_nucleolus": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Filaments_nucleolus.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/Filaments_nucleolus.xml"
           }
         },
-        "name": "FM_full_BF"
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Filaments_nucleolus"
+          }
+        }
+      }
+    },
+    "Flagella": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Cilia.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/Cilia.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Flagella"
+          }
+        }
+      }
+    },
+    "Golgi": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Golgi.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/Golgi.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Golgi"
+          }
+        }
+      }
+    },
+    "Mitochondrion": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/Mitochondrion.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/Mitochondrion"
+          }
+        }
+      }
+    },
+    "Mucocysts": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Mucocysts.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/Mucocysts.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Mucocysts"
+          }
+        }
+      }
+    },
+    "Nucleolus": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Nucleolus.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/Nucleolus.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Nucleolus"
+          }
+        }
+      }
+    },
+    "Nucleus": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Nuclear_envelope.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/Nuclear_envelope.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Nuclear_envelope"
+          }
+        }
+      }
+    },
+    "Sheets_of_filaments": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Sheets_of_filaments.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/Sheets_of_filaments.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Sheets_of_filaments"
+          }
+        }
+      }
+    },
+    "Starch": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Starch.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/Starch.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Starch"
+          }
+        }
       }
     },
     "Theca": {
       "segmentation": {
-        "tableData": {
-          "tsv": {
-            "relativePath": "tables/Theca",
-            "channel": 0
-          }
-        },
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/Theca.xml",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Theca.xml"
           },
           "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Theca.xml",
-            "channel": 0
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/Theca.xml"
           }
         },
-        "name": "Theca"
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Theca"
+          }
+        }
+      }
+    },
+    "Trichocysts": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/Trichocysts.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/Trichocysts.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "channel": 0,
+            "relativePath": "tables/Trichocysts"
+          }
+        }
+      }
+    },
+    "photosynthetic_dinoflagellate": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5/photosynthetic_dinoflagellate.xml"
+          },
+          "bdv.n5.s3": {
+            "channel": 0,
+            "relativePath": "images/bdv-n5-s3/photosynthetic_dinoflagellate.xml"
+          }
+        }
       }
     }
   },
   "views": {
-    "default": {
-      "uiSelectionGroup": "bookmark",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "photosynthetic_dinoflagellate"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              255.0
-            ],
-            "showImagesIn3d": false,
-            "name": "photosynthetic_dinoflagellate",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
-              94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
-              0.9999999999999999,
-              -125.83256535618035,
-              4.0692531044463735E-23,
-              0.9999999999999998,
-              4.747878885203768E-16,
-              11.297899906604163
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "photosynthetic_dinoflagellate"
-            ]
-          }
-        }
-      ],
-      "viewerTransform": {
-        "normalizedAffine": [
-          0.045737285034760294,
-          4.5010343094614015E-18,
-          -1.1786373140777547E-19,
-          -3.834147806763414,
-          -4.5010343094614015E-18,
-          0.045737285034760294,
-          5.7995210964572403E-36,
-          5.401050373041542,
-          1.1786373140777547E-19,
-          5.7995210964572403E-36,
-          0.045737285034760294,
-          -1.0138080820803215
-        ],
-        "timepoint": 0
-      },
-      "isExclusive": true,
-      "name": ""
-    },
-    "photosynthetic_dinoflagellate": {
-      "uiSelectionGroup": "EM",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "photosynthetic_dinoflagellate"
-            ],
-            "color": "white",
-            "contrastLimits": [
-              47.0,
-              180.0
-            ],
-            "showImagesIn3d": false,
-            "name": "photosynthetic_dinoflagellate",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
-              94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
-              0.9999999999999999,
-              -125.83256535618035,
-              4.0692531044463735E-23,
-              0.9999999999999998,
-              4.747878885203768E-16,
-              11.297899906604163
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "photosynthetic_dinoflagellate"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "LM_fullblock_BF": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_full_BF"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              255.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_full_BF",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              0.9973144772244578,
-              0.07323819712763166,
-              0.0,
-              -1081.0623212061464,
-              -0.07323819712763166,
-              0.9973144772244578,
-              0.0,
-              396.8159174100354,
-              0.0,
-              0.0,
-              1.0,
-              -22.0614359217871
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "FM_full_633nm",
-              "FM_full_488nm",
-              "FM_full_BF",
-              "FM_full_RL"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "LM_full_BF"
-    },
-    "LM_fullblock_633nm": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_full_633nm"
-            ],
-            "color": "r=255,g=0,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              44.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_full_633nm",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              0.9973144772244578,
-              0.07323819712763166,
-              0.0,
-              -1081.0623212061464,
-              -0.07323819712763166,
-              0.9973144772244578,
-              0.0,
-              396.8159174100354,
-              0.0,
-              0.0,
-              1.0,
-              -22.0614359217871
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "FM_full_633nm",
-              "FM_full_488nm",
-              "FM_full_BF",
-              "FM_full_RL"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "LM_full_633nm"
-    },
-    "LM_fullblock_488nm": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_full_488nm"
-            ],
-            "color": "r=0,g=255,b=0,a=255",
-            "contrastLimits": [
-              0.0,
-              81.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_full_488nm",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              0.9973144772244578,
-              0.07323819712763166,
-              0.0,
-              -1081.0623212061464,
-              -0.07323819712763166,
-              0.9973144772244578,
-              0.0,
-              396.8159174100354,
-              0.0,
-              0.0,
-              1.0,
-              -22.0614359217871
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "FM_full_633nm",
-              "FM_full_488nm",
-              "FM_full_BF",
-              "FM_full_RL"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "LM_full_488nm"
-    },
-    "LM_fullblock_RL": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_full_RL"
-            ],
-            "color": "r=0,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              84.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_full_RL",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              0.9973144772244578,
-              0.07323819712763166,
-              0.0,
-              -1081.0623212061464,
-              -0.07323819712763166,
-              0.9973144772244578,
-              0.0,
-              396.8159174100354,
-              0.0,
-              0.0,
-              1.0,
-              -22.0614359217871
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "FM_full_633nm",
-              "FM_full_488nm",
-              "FM_full_BF",
-              "FM_full_RL"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "LM_full_RL"
-    },
-    "LM_pre-trim_BF": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_pre-trim_BF"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              10.0,
-              255.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_pre-trim_BF",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              0.9961946980917459,
-              0.0871557427476582,
-              2.9269424994390593E-18,
-              11.194934967914435,
-              -0.0871557427476582,
-              0.9961946980917459,
-              1.7633907743433818E-17,
-              30.53563646324131,
-              -2.0907661652661433E-18,
-              -2.027593830625694E-17,
-              0.9999999999999999,
-              -21.653845387728907
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "FM_pre-trim_633nm",
-              "FM_pre-trim_488nm",
-              "FM_pre-trim_BF",
-              "FM_pre-trim_RL"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "LM_pre-trim_BF"
-    },
-    "LM_pre-trim_633nm": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_pre-trim_633nm"
-            ],
-            "color": "r=255,g=0,b=255,a=255",
-            "contrastLimits": [
-              11.0,
-              118.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_pre-trim_633nm",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              0.9961946980917459,
-              0.0871557427476582,
-              2.9269424994390593E-18,
-              11.194934967914435,
-              -0.0871557427476582,
-              0.9961946980917459,
-              1.7633907743433818E-17,
-              30.53563646324131,
-              -2.0907661652661433E-18,
-              -2.027593830625694E-17,
-              0.9999999999999999,
-              -21.653845387728907
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "FM_pre-trim_633nm",
-              "FM_pre-trim_488nm",
-              "FM_pre-trim_BF",
-              "FM_pre-trim_RL"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "LM_pre-trim_633nm"
-    },
-    "LM_pre-trim_488nm": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_pre-trim_488nm"
-            ],
-            "color": "r=0,g=255,b=0,a=255",
-            "contrastLimits": [
-              8.0,
-              128.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_pre-trim_488nm",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              0.9961946980917459,
-              0.0871557427476582,
-              2.9269424994390593E-18,
-              11.194934967914435,
-              -0.0871557427476582,
-              0.9961946980917459,
-              1.7633907743433818E-17,
-              30.53563646324131,
-              -2.0907661652661433E-18,
-              -2.027593830625694E-17,
-              0.9999999999999999,
-              -21.653845387728907
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "FM_pre-trim_633nm",
-              "FM_pre-trim_488nm",
-              "FM_pre-trim_BF",
-              "FM_pre-trim_RL"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "LM_pre-trim_488nm"
-    },
-    "LM_pre-trim_RL": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_pre-trim_RL"
-            ],
-            "color": "r=0,g=255,b=255,a=255",
-            "contrastLimits": [
-              2.0,
-              3.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_pre-trim_RL",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              0.9961946980917459,
-              0.0871557427476582,
-              2.9269424994390593E-18,
-              11.194934967914435,
-              -0.0871557427476582,
-              0.9961946980917459,
-              1.7633907743433818E-17,
-              30.53563646324131,
-              -2.0907661652661433E-18,
-              -2.027593830625694E-17,
-              0.9999999999999999,
-              -21.653845387728907
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "FM_pre-trim_633nm",
-              "FM_pre-trim_488nm",
-              "FM_pre-trim_BF",
-              "FM_pre-trim_RL"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "LM_pre-trim_RL"
-    },
-    "LM_trim_BF": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_trim_BF"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              8.0,
-              255.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_trim_BF",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "LM_trim_BF"
-    },
-    "LM_trim_633nm": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_trim_633nm"
-            ],
-            "color": "r=255,g=0,b=255,a=255",
-            "contrastLimits": [
-              11.0,
-              118.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_trim_633nm",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "LM_trim_633nm"
-    },
-    "LM_trim_488nm": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_trim_488nm"
-            ],
-            "color": "r=0,g=255,b=0,a=255",
-            "contrastLimits": [
-              8.0,
-              128.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_trim_488nm",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "LM_trim_488nm"
-    },
-    "LM_trim_RL": {
-      "uiSelectionGroup": "Fluorescence",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_trim_RL"
-            ],
-            "color": "r=0,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              255.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_trim_RL",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "isExclusive": false,
-      "name": "LM_trim_RL"
-    },
-    "Cell": {
-      "uiSelectionGroup": "EM_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Theca"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "argbColumn",
-            "colorByColumn": "annotationColor",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Cell",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
-              94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
-              0.9999999999999999,
-              -125.83256535618035,
-              4.0692531044463735E-23,
-              0.9999999999999998,
-              4.747878885203768E-16,
-              11.297899906604163
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "Theca"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Chloroplast": {
-      "uiSelectionGroup": "EM_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Chloroplast"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "argbColumn",
-            "colorByColumn": "annotationColor",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Chloroplast",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
-              94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
-              0.9999999999999999,
-              -125.83256535618035,
-              4.0692531044463735E-23,
-              0.9999999999999998,
-              4.747878885203768E-16,
-              11.297899906604163
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "Chloroplast"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Chromosomes": {
-      "uiSelectionGroup": "EM_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Chromosomes"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "argbColumn",
-            "colorByColumn": "annotationColor",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Chromosomes",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
-              94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
-              0.9999999999999999,
-              -125.83256535618035,
-              4.0692531044463735E-23,
-              0.9999999999999998,
-              4.747878885203768E-16,
-              11.297899906604163
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "Chromosomes"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Eyespots": {
-      "uiSelectionGroup": "EM_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Eyespots"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "argbColumn",
-            "colorByColumn": "annotationColor",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Eyespots",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
-              94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
-              0.9999999999999999,
-              -125.83256535618035,
-              4.0692531044463735E-23,
-              0.9999999999999998,
-              4.747878885203768E-16,
-              11.297899906604163
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "Eyespots"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Filaments_nucleolus": {
-      "uiSelectionGroup": "EM_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Filaments_nucleolus"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "argbColumn",
-            "colorByColumn": "annotationColor",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Filaments_nucleolus",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
-              94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
-              0.9999999999999999,
-              -125.83256535618035,
-              4.0692531044463735E-23,
-              0.9999999999999998,
-              4.747878885203768E-16,
-              11.297899906604163
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "Filaments_nucleolus"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Flagella": {
-      "uiSelectionGroup": "EM_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Flagella"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "argbColumn",
-            "colorByColumn": "annotationColor",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Flagella",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
-              94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
-              0.9999999999999999,
-              -125.83256535618035,
-              4.0692531044463735E-23,
-              0.9999999999999998,
-              4.747878885203768E-16,
-              11.297899906604163
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "Flagella"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Golgi": {
-      "uiSelectionGroup": "EM_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Golgi"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "argbColumn",
-            "colorByColumn": "annotationColor",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Golgi",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
-              94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
-              0.9999999999999999,
-              -125.83256535618035,
-              4.0692531044463735E-23,
-              0.9999999999999998,
-              4.747878885203768E-16,
-              11.297899906604163
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "Golgi"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Mucocysts": {
-      "uiSelectionGroup": "EM_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Mucocysts"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "argbColumn",
-            "colorByColumn": "annotationColor",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Mucocysts",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
-              94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
-              0.9999999999999999,
-              -125.83256535618035,
-              4.0692531044463735E-23,
-              0.9999999999999998,
-              4.747878885203768E-16,
-              11.297899906604163
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "Mucocysts"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Nucleus": {
-      "uiSelectionGroup": "EM_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Nucleus"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "argbColumn",
-            "colorByColumn": "annotationColor",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Nucleus",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
-              94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
-              0.9999999999999999,
-              -125.83256535618035,
-              4.0692531044463735E-23,
-              0.9999999999999998,
-              4.747878885203768E-16,
-              11.297899906604163
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "Nucleus"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Nucleolus": {
-      "uiSelectionGroup": "EM_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Nucleolus"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "argbColumn",
-            "colorByColumn": "annotationColor",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Nucleolus",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
-              94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
-              0.9999999999999999,
-              -125.83256535618035,
-              4.0692531044463735E-23,
-              0.9999999999999998,
-              4.747878885203768E-16,
-              11.297899906604163
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "Nucleolus"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Sheets_of_filaments": {
-      "uiSelectionGroup": "EM_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Sheets_of_filaments"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "argbColumn",
-            "colorByColumn": "annotationColor",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Sheets_of_filaments",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
-              94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
-              0.9999999999999999,
-              -125.83256535618035,
-              4.0692531044463735E-23,
-              0.9999999999999998,
-              4.747878885203768E-16,
-              11.297899906604163
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "Sheets_of_filaments"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Starch": {
-      "uiSelectionGroup": "EM_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Starch"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "argbColumn",
-            "colorByColumn": "annotationColor",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Starch",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
-              94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
-              0.9999999999999999,
-              -125.83256535618035,
-              4.0692531044463735E-23,
-              0.9999999999999998,
-              4.747878885203768E-16,
-              11.297899906604163
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "Starch"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "Trichocysts": {
-      "uiSelectionGroup": "EM_segmentation",
-      "sourceDisplays": [
-        {
-          "segmentationDisplay": {
-            "sources": [
-              "Trichocysts"
-            ],
-            "showSelectedSegmentsIn3d": false,
-            "lut": "glasbey",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "randomColorSeed": 42,
-            "opacityNotSelected": 0.15,
-            "name": "Trichocysts",
-            "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
-              94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
-              0.9999999999999999,
-              -125.83256535618035,
-              4.0692531044463735E-23,
-              0.9999999999999998,
-              4.747878885203768E-16,
-              11.297899906604163
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "Trichocysts"
-            ]
-          }
-        }
-      ],
-      "isExclusive": false
-    },
-    "LM_fullblock": {
-      "uiSelectionGroup": "Light_microscopy_views",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_full_633nm"
-            ],
-            "color": "r=255,g=0,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              44.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_full_633nm",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_full_488nm"
-            ],
-            "color": "r=0,g=255,b=0,a=255",
-            "contrastLimits": [
-              0.0,
-              81.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_full_488nm",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_full_RL"
-            ],
-            "color": "r=0,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              84.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_full_RL",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_full_BF"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              255.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_full_BF",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              0.9973144772244578,
-              0.07323819712763166,
-              0.0,
-              -1081.0623212061464,
-              -0.07323819712763166,
-              0.9973144772244578,
-              0.0,
-              396.8159174100354,
-              0.0,
-              0.0,
-              1.0,
-              -22.0614359217871
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "FM_full_633nm",
-              "FM_full_488nm",
-              "FM_full_BF",
-              "FM_full_RL"
-            ]
-          }
-        }
-      ],
-      "viewerTransform": {
-        "normalizedAffine": [
-          -3.4270243882017823E-4,
-          2.516649396315103E-5,
-          -1.5420389568436647E-21,
-          -0.07873910953482118,
-          2.516649396315103E-5,
-          3.4270243882017823E-4,
-          -4.2053694024998717E-20,
-          0.29475218492374683,
-          -1.5420389568436707E-21,
-          -4.2053694024998747E-20,
-          -3.436252522613777E-4,
-          0.014175693310583928
-        ],
-        "timepoint": 0
-      },
-      "isExclusive": true,
-      "name": ""
-    },
-    "LM_pre-trim": {
-      "uiSelectionGroup": "Light_microscopy_views",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_pre-trim_633nm"
-            ],
-            "color": "r=255,g=0,b=255,a=255",
-            "contrastLimits": [
-              11.0,
-              118.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_pre-trim_633nm",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_pre-trim_488nm"
-            ],
-            "color": "r=0,g=255,b=0,a=255",
-            "contrastLimits": [
-              8.0,
-              128.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_pre-trim_488nm",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_pre-trim_BF"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              10.0,
-              255.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_pre-trim_BF",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_pre-trim_RL"
-            ],
-            "color": "r=0,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              74.3835
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_pre-trim_RL",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              0.9961946980917459,
-              0.0871557427476582,
-              2.9269424994390593E-18,
-              11.194934967914435,
-              -0.0871557427476582,
-              0.9961946980917459,
-              1.7633907743433818E-17,
-              30.53563646324131,
-              -2.0907661652661433E-18,
-              -2.027593830625694E-17,
-              0.9999999999999999,
-              -21.653845387728907
-            ],
-            "name": "manualTransform",
-            "sources": [
-              "FM_pre-trim_633nm",
-              "FM_pre-trim_488nm",
-              "FM_pre-trim_BF",
-              "FM_pre-trim_RL"
-            ]
-          }
-        }
-      ],
-      "viewerTransform": {
-        "normalizedAffine": [
-          0.004150606394004123,
-          -3.631310062335755E-4,
-          -9.427844978134821E-21,
-          -0.40410383591449767,
-          -3.6313100623357544E-4,
-          -0.004150606394004124,
-          9.050731179009429E-20,
-          -0.22923677322506336,
-          -1.6453913595722454E-20,
-          -9.050731179009429E-20,
-          -0.004166461036135598,
-          0.09163843969784036
-        ],
-        "timepoint": 0
-      },
-      "isExclusive": true,
-      "name": ""
-    },
-    "LM_trimmed-branded": {
-      "uiSelectionGroup": "Light_microscopy_views",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_trim_BF"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              247.59780519999998
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_trim_BF",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_trim_633nm"
-            ],
-            "color": "r=255,g=0,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              75.11606760000001
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_trim_633nm",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_trim_488nm"
-            ],
-            "color": "r=0,g=255,b=0,a=255",
-            "contrastLimits": [
-              0.0,
-              70.3037
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_trim_488nm",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "FM_trim_RL"
-            ],
-            "color": "r=0,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              255.0
-            ],
-            "showImagesIn3d": false,
-            "name": "LM_trim_RL",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
-          }
-        }
-      ],
-      "sourceTransforms": [],
-      "viewerTransform": {
-        "normalizedAffine": [
-          0.004019620390370549,
-          -1.0224617264391312E-18,
-          -1.7041028773985504E-19,
-          -0.3521125401182794,
-          -1.7893080212684794E-18,
-          -0.004019620390370552,
-          3.310884938931242E-35,
-          -0.3417729902862232,
-          -1.7041028773985518E-19,
-          1.1351605504907116E-34,
-          -0.004019620390370552,
-          0.09005655327592335
-        ],
-        "timepoint": 0
-      },
-      "isExclusive": true,
-      "name": ""
-    },
     "CLEM_fig3c": {
-      "uiSelectionGroup": "overlays",
+      "isExclusive": true,
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "sources": [
-              "FM_trim_BF"
-            ],
+            "blendingMode": "sum",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0.0,
               247.59780519999998
             ],
-            "showImagesIn3d": false,
             "name": "LM_trim_BF",
             "opacity": 1.0,
-            "visible": false,
-            "blendingMode": "sum"
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_BF"
+            ],
+            "visible": false
           }
         },
         {
           "imageDisplay": {
-            "sources": [
-              "FM_trim_633nm"
-            ],
+            "blendingMode": "sum",
             "color": "r=255,g=0,b=255,a=255",
             "contrastLimits": [
               11.0,
               118.0
             ],
-            "showImagesIn3d": false,
             "name": "LM_trim_633nm",
             "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_633nm"
+            ],
+            "visible": true
           }
         },
         {
           "imageDisplay": {
-            "sources": [
-              "FM_trim_488nm"
-            ],
+            "blendingMode": "sum",
             "color": "r=0,g=255,b=0,a=255",
             "contrastLimits": [
               8.0,
               128.0
             ],
-            "showImagesIn3d": false,
             "name": "LM_trim_488nm",
             "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_488nm"
+            ],
+            "visible": true
           }
         },
         {
           "imageDisplay": {
-            "sources": [
-              "FM_trim_RL"
-            ],
+            "blendingMode": "sum",
             "color": "r=0,g=255,b=255,a=255",
             "contrastLimits": [
               0.0,
               255.0
             ],
-            "showImagesIn3d": false,
             "name": "LM_trim_RL",
             "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_RL"
+            ],
+            "visible": true
           }
         },
         {
           "imageDisplay": {
-            "sources": [
-              "photosynthetic_dinoflagellate"
-            ],
+            "blendingMode": "sum",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               47.8125,
               180.6165
             ],
-            "showImagesIn3d": false,
             "name": "photosynthetic_dinoflagellate",
             "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
+            "showImagesIn3d": false,
+            "sources": [
+              "photosynthetic_dinoflagellate"
+            ],
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
+            "name": "manualTransform",
             "parameters": [
               -1.0000000000000002,
-              4.0692530951248726E-23,
-              6.938893903907227E-18,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
               94.69780764707536,
-              3.469446951953614E-18,
-              -4.747878885203765E-16,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
               0.9999999999999999,
               -125.83256535618035,
-              4.0692531044463735E-23,
+              4.0692531044463735e-23,
               0.9999999999999998,
-              4.747878885203768E-16,
+              4.747878885203768e-16,
               11.297899906604163
             ],
-            "name": "manualTransform",
             "sources": [
               "photosynthetic_dinoflagellate"
             ]
           }
         }
       ],
+      "uiSelectionGroup": "overlays",
       "viewerTransform": {
         "normalizedAffine": [
           -0.055466649945275386,
           -0.02354419604128326,
-          -5.227971492547807E-18,
+          -5.227971492547807e-18,
           1.8567397734018898,
           -0.02354419604128326,
           0.055466649945275386,
-          1.2316329009177874E-17,
+          1.2316329009177874e-17,
           8.508813463427321,
-          1.8308340358325476E-35,
-          1.3379971830658295E-17,
+          1.8308340358325476e-35,
+          1.3379971830658295e-17,
           -0.06025677076795686,
           1.4473991554868797
         ],
         "timepoint": 0
-      },
-      "isExclusive": true,
-      "name": ""
+      }
     },
-    "trim-pretrim": {
-      "uiSelectionGroup": "overlays",
+    "CLEM_overview": {
+      "isExclusive": true,
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "sources": [
-              "FM_pre-trim_488nm"
-            ],
-            "color": "r=255,g=0,b=51,a=255",
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0.0,
-              55.0
+              247.59780519999998
             ],
-            "showImagesIn3d": false,
-            "name": "LM_pre-trim_488nm",
+            "name": "LM_trim_BF",
             "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_BF"
+            ],
+            "visible": false
           }
         },
         {
           "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=0,b=255,a=255",
+            "contrastLimits": [
+              11.0,
+              118.0
+            ],
+            "name": "LM_trim_633nm",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_633nm"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              8.0,
+              128.0
+            ],
+            "name": "LM_trim_488nm",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
             "sources": [
               "FM_trim_488nm"
             ],
+            "visible": false
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "LM_trim_RL",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_RL"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              47.8125,
+              180.6165
+            ],
+            "name": "photosynthetic_dinoflagellate",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "photosynthetic_dinoflagellate"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "LM_full_BF",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_full_BF"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=0,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              44.0
+            ],
+            "name": "LM_full_633nm",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_full_633nm"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
             "color": "r=0,g=255,b=0,a=255",
             "contrastLimits": [
               0.0,
-              37.0
+              81.0
             ],
-            "showImagesIn3d": false,
-            "name": "LM_trim_488nm",
+            "name": "LM_full_488nm",
             "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sum"
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_full_488nm"
+            ],
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "photosynthetic_dinoflagellate"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9973144772244578,
+              0.07323819712763166,
+              0.0,
+              -1081.0623212061464,
+              -0.07323819712763166,
+              0.9973144772244578,
+              0.0,
+              396.8159174100354,
+              0.0,
+              0.0,
+              1.0,
+              -22.0614359217871
+            ],
+            "sources": [
+              "FM_full_633nm",
+              "FM_full_488nm",
+              "FM_full_BF",
+              "FM_full_RL"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9973144772244578,
+              0.07323819712763166,
+              0.0,
+              -1081.0623212061464,
+              -0.07323819712763166,
+              0.9973144772244578,
+              0.0,
+              396.8159174100354,
+              0.0,
+              0.0,
+              1.0,
+              -22.0614359217871
+            ],
+            "sources": [
+              "FM_full_633nm",
+              "FM_full_488nm",
+              "FM_full_BF",
+              "FM_full_RL"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9973144772244578,
+              0.07323819712763166,
+              0.0,
+              -1081.0623212061464,
+              -0.07323819712763166,
+              0.9973144772244578,
+              0.0,
+              396.8159174100354,
+              0.0,
+              0.0,
+              1.0,
+              -22.0614359217871
+            ],
+            "sources": [
+              "FM_full_633nm",
+              "FM_full_488nm",
+              "FM_full_BF",
+              "FM_full_RL"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "photosynthetic_dinoflagellate"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9973144772244578,
+              0.07323819712763166,
+              0.0,
+              -1081.0623212061464,
+              -0.07323819712763166,
+              0.9973144772244578,
+              0.0,
+              396.8159174100354,
+              0.0,
+              0.0,
+              1.0,
+              -22.0614359217871
+            ],
+            "sources": [
+              "FM_full_BF"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9973144772244578,
+              0.07323819712763166,
+              0.0,
+              -1081.0623212061464,
+              -0.07323819712763166,
+              0.9973144772244578,
+              0.0,
+              396.8159174100354,
+              0.0,
+              0.0,
+              1.0,
+              -22.0614359217871
+            ],
+            "sources": [
+              "FM_full_633nm"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9973144772244578,
+              0.07323819712763166,
+              0.0,
+              -1081.0623212061464,
+              -0.07323819712763166,
+              0.9973144772244578,
+              0.0,
+              396.8159174100354,
+              0.0,
+              0.0,
+              1.0,
+              -22.0614359217871
+            ],
+            "sources": [
+              "FM_full_488nm"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "overlays",
+      "viewerTransform": {
+        "normalizedAffine": [
+          -0.0013480848099212907,
+          -0.0005722280519263001,
+          -2.392811498324223e-19,
+          0.02700874757968357,
+          -0.0005722280519263001,
+          0.0013480848099212907,
+          2.765101677620961e-19,
+          0.22492761697975694,
+          1.1221832987198298e-19,
+          3.4802354515419107e-19,
+          -0.0014645059228804397,
+          0.037998522457153905
+        ],
+        "timepoint": 0
+      }
+    },
+    "Cell": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "Cell",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Theca"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "Theca"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "EM_segmentation"
+    },
+    "Chloroplast": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "Chloroplast",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Chloroplast"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "Chloroplast"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "EM_segmentation"
+    },
+    "Chromosomes": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "Chromosomes",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Chromosomes"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "Chromosomes"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "EM_segmentation"
+    },
+    "Eyespots": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "Eyespots",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Eyespots"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "Eyespots"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "EM_segmentation"
+    },
+    "Filaments_nucleolus": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "Filaments_nucleolus",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Filaments_nucleolus"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "Filaments_nucleolus"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "EM_segmentation"
+    },
+    "Flagella": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "Flagella",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Flagella"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "Flagella"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "EM_segmentation"
+    },
+    "Golgi": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "Golgi",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Golgi"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "Golgi"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "EM_segmentation"
+    },
+    "LM_fullblock": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=0,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              44.0
+            ],
+            "name": "LM_full_633nm",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_full_633nm"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              0.0,
+              81.0
+            ],
+            "name": "LM_full_488nm",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_full_488nm"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              84.0
+            ],
+            "name": "LM_full_RL",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_full_RL"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "LM_full_BF",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_full_BF"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9973144772244578,
+              0.07323819712763166,
+              0.0,
+              -1081.0623212061464,
+              -0.07323819712763166,
+              0.9973144772244578,
+              0.0,
+              396.8159174100354,
+              0.0,
+              0.0,
+              1.0,
+              -22.0614359217871
+            ],
+            "sources": [
+              "FM_full_633nm",
+              "FM_full_488nm",
+              "FM_full_BF",
+              "FM_full_RL"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "Light_microscopy_views",
+      "viewerTransform": {
+        "normalizedAffine": [
+          -0.00034270243882017823,
+          2.516649396315103e-05,
+          -1.5420389568436647e-21,
+          -0.07873910953482118,
+          2.516649396315103e-05,
+          0.00034270243882017823,
+          -4.2053694024998717e-20,
+          0.29475218492374683,
+          -1.5420389568436707e-21,
+          -4.2053694024998747e-20,
+          -0.0003436252522613777,
+          0.014175693310583928
+        ],
+        "timepoint": 0
+      }
+    },
+    "LM_fullblock_488nm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              0.0,
+              81.0
+            ],
+            "name": "LM_full_488nm",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_full_488nm"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9973144772244578,
+              0.07323819712763166,
+              0.0,
+              -1081.0623212061464,
+              -0.07323819712763166,
+              0.9973144772244578,
+              0.0,
+              396.8159174100354,
+              0.0,
+              0.0,
+              1.0,
+              -22.0614359217871
+            ],
+            "sources": [
+              "FM_full_633nm",
+              "FM_full_488nm",
+              "FM_full_BF",
+              "FM_full_RL"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "LM_fullblock_633nm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=0,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              44.0
+            ],
+            "name": "LM_full_633nm",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_full_633nm"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9973144772244578,
+              0.07323819712763166,
+              0.0,
+              -1081.0623212061464,
+              -0.07323819712763166,
+              0.9973144772244578,
+              0.0,
+              396.8159174100354,
+              0.0,
+              0.0,
+              1.0,
+              -22.0614359217871
+            ],
+            "sources": [
+              "FM_full_633nm",
+              "FM_full_488nm",
+              "FM_full_BF",
+              "FM_full_RL"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "LM_fullblock_BF": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "LM_full_BF",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_full_BF"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9973144772244578,
+              0.07323819712763166,
+              0.0,
+              -1081.0623212061464,
+              -0.07323819712763166,
+              0.9973144772244578,
+              0.0,
+              396.8159174100354,
+              0.0,
+              0.0,
+              1.0,
+              -22.0614359217871
+            ],
+            "sources": [
+              "FM_full_633nm",
+              "FM_full_488nm",
+              "FM_full_BF",
+              "FM_full_RL"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "LM_fullblock_RL": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              84.0
+            ],
+            "name": "LM_full_RL",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_full_RL"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9973144772244578,
+              0.07323819712763166,
+              0.0,
+              -1081.0623212061464,
+              -0.07323819712763166,
+              0.9973144772244578,
+              0.0,
+              396.8159174100354,
+              0.0,
+              0.0,
+              1.0,
+              -22.0614359217871
+            ],
+            "sources": [
+              "FM_full_633nm",
+              "FM_full_488nm",
+              "FM_full_BF",
+              "FM_full_RL"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "LM_pre-trim": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=0,b=255,a=255",
+            "contrastLimits": [
+              11.0,
+              118.0
+            ],
+            "name": "LM_pre-trim_633nm",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_pre-trim_633nm"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              8.0,
+              128.0
+            ],
+            "name": "LM_pre-trim_488nm",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_pre-trim_488nm"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              10.0,
+              255.0
+            ],
+            "name": "LM_pre-trim_BF",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_pre-trim_BF"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              74.3835
+            ],
+            "name": "LM_pre-trim_RL",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_pre-trim_RL"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
             "parameters": [
               0.9961946980917459,
               0.0871557427476582,
-              2.9269424994390593E-18,
+              2.9269424994390593e-18,
               11.194934967914435,
               -0.0871557427476582,
               0.9961946980917459,
-              1.7633907743433818E-17,
+              1.7633907743433818e-17,
               30.53563646324131,
-              -2.0907661652661433E-18,
-              -2.027593830625694E-17,
+              -2.0907661652661433e-18,
+              -2.027593830625694e-17,
               0.9999999999999999,
               -21.653845387728907
             ],
-            "name": "manualTransform",
             "sources": [
               "FM_pre-trim_633nm",
               "FM_pre-trim_488nm",
@@ -2325,25 +1740,882 @@
           }
         }
       ],
+      "uiSelectionGroup": "Light_microscopy_views",
       "viewerTransform": {
         "normalizedAffine": [
-          0.003139298508465205,
-          9.208043655135118E-20,
-          -6.3854874809119465E-19,
-          -0.3132443136591567,
-          -1.0882233410614238E-19,
-          -0.003139298508465205,
-          -7.754710407088434E-20,
-          -0.23953815829789182,
-          -7.256560252172931E-19,
-          1.0699099184620804E-19,
-          -0.003139298508465204,
-          0.043510420284013925
+          0.004150606394004123,
+          -0.0003631310062335755,
+          -9.427844978134821e-21,
+          -0.40410383591449767,
+          -0.00036313100623357544,
+          -0.004150606394004124,
+          9.050731179009429e-20,
+          -0.22923677322506336,
+          -1.6453913595722454e-20,
+          -9.050731179009429e-20,
+          -0.004166461036135598,
+          0.09163843969784036
         ],
         "timepoint": 0
-      },
+      }
+    },
+    "LM_pre-trim_488nm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              8.0,
+              128.0
+            ],
+            "name": "LM_pre-trim_488nm",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_pre-trim_488nm"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9961946980917459,
+              0.0871557427476582,
+              2.9269424994390593e-18,
+              11.194934967914435,
+              -0.0871557427476582,
+              0.9961946980917459,
+              1.7633907743433818e-17,
+              30.53563646324131,
+              -2.0907661652661433e-18,
+              -2.027593830625694e-17,
+              0.9999999999999999,
+              -21.653845387728907
+            ],
+            "sources": [
+              "FM_pre-trim_633nm",
+              "FM_pre-trim_488nm",
+              "FM_pre-trim_BF",
+              "FM_pre-trim_RL"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "LM_pre-trim_633nm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=0,b=255,a=255",
+            "contrastLimits": [
+              11.0,
+              118.0
+            ],
+            "name": "LM_pre-trim_633nm",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_pre-trim_633nm"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9961946980917459,
+              0.0871557427476582,
+              2.9269424994390593e-18,
+              11.194934967914435,
+              -0.0871557427476582,
+              0.9961946980917459,
+              1.7633907743433818e-17,
+              30.53563646324131,
+              -2.0907661652661433e-18,
+              -2.027593830625694e-17,
+              0.9999999999999999,
+              -21.653845387728907
+            ],
+            "sources": [
+              "FM_pre-trim_633nm",
+              "FM_pre-trim_488nm",
+              "FM_pre-trim_BF",
+              "FM_pre-trim_RL"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "LM_pre-trim_BF": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              10.0,
+              255.0
+            ],
+            "name": "LM_pre-trim_BF",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_pre-trim_BF"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9961946980917459,
+              0.0871557427476582,
+              2.9269424994390593e-18,
+              11.194934967914435,
+              -0.0871557427476582,
+              0.9961946980917459,
+              1.7633907743433818e-17,
+              30.53563646324131,
+              -2.0907661652661433e-18,
+              -2.027593830625694e-17,
+              0.9999999999999999,
+              -21.653845387728907
+            ],
+            "sources": [
+              "FM_pre-trim_633nm",
+              "FM_pre-trim_488nm",
+              "FM_pre-trim_BF",
+              "FM_pre-trim_RL"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "LM_pre-trim_RL": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=255,a=255",
+            "contrastLimits": [
+              2.0,
+              3.0
+            ],
+            "name": "LM_pre-trim_RL",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_pre-trim_RL"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9961946980917459,
+              0.0871557427476582,
+              2.9269424994390593e-18,
+              11.194934967914435,
+              -0.0871557427476582,
+              0.9961946980917459,
+              1.7633907743433818e-17,
+              30.53563646324131,
+              -2.0907661652661433e-18,
+              -2.027593830625694e-17,
+              0.9999999999999999,
+              -21.653845387728907
+            ],
+            "sources": [
+              "FM_pre-trim_633nm",
+              "FM_pre-trim_488nm",
+              "FM_pre-trim_BF",
+              "FM_pre-trim_RL"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "LM_trim_488nm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              8.0,
+              128.0
+            ],
+            "name": "LM_trim_488nm",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_488nm"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "LM_trim_633nm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=0,b=255,a=255",
+            "contrastLimits": [
+              11.0,
+              118.0
+            ],
+            "name": "LM_trim_633nm",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_633nm"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "LM_trim_BF": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              8.0,
+              255.0
+            ],
+            "name": "LM_trim_BF",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_BF"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "LM_trim_RL": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "LM_trim_RL",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_RL"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "uiSelectionGroup": "Fluorescence"
+    },
+    "LM_trimmed-branded": {
       "isExclusive": true,
-      "name": ""
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              247.59780519999998
+            ],
+            "name": "LM_trim_BF",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_BF"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=0,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              75.11606760000001
+            ],
+            "name": "LM_trim_633nm",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_633nm"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              0.0,
+              70.3037
+            ],
+            "name": "LM_trim_488nm",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_488nm"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "LM_trim_RL",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "FM_trim_RL"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "Light_microscopy_views",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.004019620390370549,
+          -1.0224617264391312e-18,
+          -1.7041028773985504e-19,
+          -0.3521125401182794,
+          -1.7893080212684794e-18,
+          -0.004019620390370552,
+          3.310884938931242e-35,
+          -0.3417729902862232,
+          -1.7041028773985518e-19,
+          1.1351605504907116e-34,
+          -0.004019620390370552,
+          0.09005655327592335
+        ],
+        "timepoint": 0
+      }
+    },
+    "Mitochondrion": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "Mitochondrion",
+            "opacity": 0.5,
+            "sources": [
+              "Mitochondrion"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "Mitochondrion"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "EM_segmentation"
+    },
+    "Mucocysts": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "Mucocysts",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Mucocysts"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "Mucocysts"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "EM_segmentation"
+    },
+    "Nucleolus": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "Nucleolus",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Nucleolus"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "Nucleolus"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "EM_segmentation"
+    },
+    "Nucleus": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "Nucleus",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Nucleus"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "Nucleus"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "EM_segmentation"
+    },
+    "Sheets_of_filaments": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "Sheets_of_filaments",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Sheets_of_filaments"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "Sheets_of_filaments"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "EM_segmentation"
+    },
+    "Starch": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "Starch",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Starch"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "Starch"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "EM_segmentation"
+    },
+    "Trichocysts": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "blendingMode": "alpha",
+            "boundaryThickness": 1.0,
+            "lut": "glasbey",
+            "name": "Trichocysts",
+            "opacity": 0.5,
+            "opacityNotSelected": 0.15,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showSelectedSegmentsIn3d": false,
+            "showTable": true,
+            "sources": [
+              "Trichocysts"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "Trichocysts"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "EM_segmentation"
+    },
+    "default": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "photosynthetic_dinoflagellate",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "photosynthetic_dinoflagellate"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "photosynthetic_dinoflagellate"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.045737285034760294,
+          4.5010343094614015e-18,
+          -1.1786373140777547e-19,
+          -3.834147806763414,
+          -4.5010343094614015e-18,
+          0.045737285034760294,
+          5.7995210964572403e-36,
+          5.401050373041542,
+          1.1786373140777547e-19,
+          5.7995210964572403e-36,
+          0.045737285034760294,
+          -1.0138080820803215
+        ],
+        "timepoint": 0
+      }
+    },
+    "photosynthetic_dinoflagellate": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "white",
+            "contrastLimits": [
+              47.0,
+              180.0
+            ],
+            "name": "photosynthetic_dinoflagellate",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "photosynthetic_dinoflagellate"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              -1.0000000000000002,
+              4.0692530951248726e-23,
+              6.938893903907227e-18,
+              94.69780764707536,
+              3.469446951953614e-18,
+              -4.747878885203765e-16,
+              0.9999999999999999,
+              -125.83256535618035,
+              4.0692531044463735e-23,
+              0.9999999999999998,
+              4.747878885203768e-16,
+              11.297899906604163
+            ],
+            "sources": [
+              "photosynthetic_dinoflagellate"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "EM"
     }
   }
 }
