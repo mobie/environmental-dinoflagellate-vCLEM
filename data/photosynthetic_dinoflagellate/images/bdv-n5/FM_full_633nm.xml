@@ -8,7 +8,7 @@
     <ViewSetups>
       <ViewSetup>
         <id>0</id>
-        <name>FM_full_Ch1</name>
+        <name>FM_full_633nm</name>
         <size>1539 2046 26</size>
         <voxelSize>
           <unit>µm</unit>

@@ -8,7 +8,7 @@
     <ViewSetups>
       <ViewSetup>
         <id>0</id>
-        <name>FM_trim_Ch2</name>
+        <name>FM_trim_488nm</name>
         <size>880 880 21</size>
         <voxelSize>
           <unit>µm</unit>

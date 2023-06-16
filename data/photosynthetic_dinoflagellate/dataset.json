@@ -15,34 +15,23 @@
           "bdv.n5": {
             "relativePath": "images/bdv-n5/FM_trim_633nm.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_trim_633nm.xml",
-            "channel": 0
           }
-        },
-        "name": "FM_trim_633nm"
+        }
       }
     },
     "Nucleus": {
       "segmentation": {
         "tableData": {
           "tsv": {
-            "relativePath": "tables/Nuclear_envelope",
-            "channel": 0
+            "relativePath": "tables/Nuclear_envelope"
           }
         },
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/Nuclear_envelope.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Nuclear_envelope.xml",
-            "channel": 0
           }
-        },
-        "name": "Nucleus"
+        }
       }
     },
     "FM_trim_BF": {
@@ -51,34 +40,23 @@
           "bdv.n5": {
             "relativePath": "images/bdv-n5/FM_trim_BF.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_trim_BF.xml",
-            "channel": 0
           }
-        },
-        "name": "FM_trim_BF"
+        }
       }
     },
     "Nucleolus": {
       "segmentation": {
         "tableData": {
           "tsv": {
-            "relativePath": "tables/Nucleolus",
-            "channel": 0
+            "relativePath": "tables/Nucleolus"
           }
         },
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/Nucleolus.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Nucleolus.xml",
-            "channel": 0
           }
-        },
-        "name": "Nucleolus"
+        }
       }
     },
     "photosynthetic_dinoflagellate": {
@@ -87,55 +65,38 @@
           "bdv.n5": {
             "relativePath": "images/bdv-n5/photosynthetic_dinoflagellate.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/photosynthetic_dinoflagellate.xml",
-            "channel": 0
           }
-        },
-        "name": "photosynthetic_dinoflagellate"
+        }
       }
     },
     "Mucocysts": {
       "segmentation": {
         "tableData": {
           "tsv": {
-            "relativePath": "tables/Mucocysts",
-            "channel": 0
+            "relativePath": "tables/Mucocysts"
           }
         },
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/Mucocysts.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Mucocysts.xml",
-            "channel": 0
           }
-        },
-        "name": "Mucocysts"
+        }
       }
     },
     "Filaments_nucleolus": {
       "segmentation": {
         "tableData": {
           "tsv": {
-            "relativePath": "tables/Filaments_nucleolus",
-            "channel": 0
+            "relativePath": "tables/Filaments_nucleolus"
           }
         },
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/Filaments_nucleolus.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Filaments_nucleolus.xml",
-            "channel": 0
           }
-        },
-        "name": "Filaments_nucleolus"
+        }
       }
     },
     "FM_pre-trim_488nm": {
@@ -144,13 +105,8 @@
           "bdv.n5": {
             "relativePath": "images/bdv-n5/FM_pre-trim_488nm.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_pre-trim_488nm.xml",
-            "channel": 0
           }
-        },
-        "name": "FM_pre-trim_488nm"
+        }
       }
     },
     "FM_trim_488nm": {
@@ -159,118 +115,83 @@
           "bdv.n5": {
             "relativePath": "images/bdv-n5/FM_trim_488nm.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_trim_488nm.xml",
-            "channel": 0
           }
-        },
-        "name": "FM_trim_488nm"
+        }
       }
     },
     "Golgi": {
       "segmentation": {
         "tableData": {
           "tsv": {
-            "relativePath": "tables/Golgi",
-            "channel": 0
+            "relativePath": "tables/Golgi"
           }
         },
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/Golgi.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Golgi.xml",
-            "channel": 0
           }
-        },
-        "name": "Golgi"
+        }
       }
     },
     "Chromosomes": {
       "segmentation": {
         "tableData": {
           "tsv": {
-            "relativePath": "tables/Chromosomes",
-            "channel": 0
+            "relativePath": "tables/Chromosomes"
           }
         },
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/Chromosomes.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Chromosomes.xml",
-            "channel": 0
           }
-        },
-        "name": "Chromosomes"
+        }
       }
     },
     "Sheets_of_filaments": {
       "segmentation": {
         "tableData": {
           "tsv": {
-            "relativePath": "tables/Sheets_of_filaments",
-            "channel": 0
+            "relativePath": "tables/Sheets_of_filaments"
           }
         },
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/Sheets_of_filaments.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Sheets_of_filaments.xml",
-            "channel": 0
           }
-        },
-        "name": "Sheets_of_filaments"
+        }
       }
     },
     "Chloroplast": {
       "segmentation": {
         "tableData": {
           "tsv": {
-            "relativePath": "tables/Chloroplast",
-            "channel": 0
+            "relativePath": "tables/Chloroplast"
           }
         },
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/Chloroplast.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Chloroplast.xml",
-            "channel": 0
           }
-        },
-        "name": "Chloroplast"
+        }
       }
     },
     "Trichocysts": {
       "segmentation": {
         "tableData": {
           "tsv": {
-            "relativePath": "tables/Trichocysts",
-            "channel": 0
+            "relativePath": "tables/Trichocysts"
           }
         },
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/Trichocysts.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Trichocysts.xml",
-            "channel": 0
           }
-        },
-        "name": "Trichocysts"
+        }
       }
     },
     "FM_pre-trim_633nm": {
@@ -279,13 +200,8 @@
           "bdv.n5": {
             "relativePath": "images/bdv-n5/FM_pre-trim_633nm.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_pre-trim_633nm.xml",
-            "channel": 0
           }
-        },
-        "name": "FM_pre-trim_633nm"
+        }
       }
     },
     "FM_full_488nm": {
@@ -294,55 +210,38 @@
           "bdv.n5": {
             "relativePath": "images/bdv-n5/FM_full_488nm.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_full_488nm.xml",
-            "channel": 0
           }
-        },
-        "name": "FM_full_488nm"
+        }
       }
     },
     "Eyespots": {
       "segmentation": {
         "tableData": {
           "tsv": {
-            "relativePath": "tables/Eyespots",
-            "channel": 0
+            "relativePath": "tables/Eyespots"
           }
         },
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/Eyespots.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Eyespots.xml",
-            "channel": 0
           }
-        },
-        "name": "Eyespots"
+        }
       }
     },
     "Starch": {
       "segmentation": {
         "tableData": {
           "tsv": {
-            "relativePath": "tables/Starch",
-            "channel": 0
+            "relativePath": "tables/Starch"
           }
         },
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/Starch.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Starch.xml",
-            "channel": 0
           }
-        },
-        "name": "Starch"
+        }
       }
     },
     "FM_full_633nm": {
@@ -351,13 +250,8 @@
           "bdv.n5": {
             "relativePath": "images/bdv-n5/FM_full_633nm.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_full_633nm.xml",
-            "channel": 0
           }
-        },
-        "name": "FM_full_633nm"
+        }
       }
     },
     "FM_trim_RL": {
@@ -366,13 +260,8 @@
           "bdv.n5": {
             "relativePath": "images/bdv-n5/FM_trim_RL.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_trim_RL.xml",
-            "channel": 0
           }
-        },
-        "name": "FM_trim_RL"
+        }
       }
     },
     "FM_pre-trim_RL": {
@@ -381,13 +270,8 @@
           "bdv.n5": {
             "relativePath": "images/bdv-n5/FM_pre-trim_RL.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_pre-trim_RL.xml",
-            "channel": 0
           }
-        },
-        "name": "FM_pre-trim_RL"
+        }
       }
     },
     "FM_full_RL": {
@@ -396,13 +280,8 @@
           "bdv.n5": {
             "relativePath": "images/bdv-n5/FM_full_RL.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_full_RL.xml",
-            "channel": 0
           }
-        },
-        "name": "FM_full_RL"
+        }
       }
     },
     "FM_pre-trim_BF": {
@@ -411,34 +290,23 @@
           "bdv.n5": {
             "relativePath": "images/bdv-n5/FM_pre-trim_BF.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_pre-trim_BF.xml",
-            "channel": 0
           }
-        },
-        "name": "FM_pre-trim_BF"
+        }
       }
     },
     "Flagella": {
       "segmentation": {
         "tableData": {
           "tsv": {
-            "relativePath": "tables/Flagella",
-            "channel": 0
+            "relativePath": "tables/Flagella"
           }
         },
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/Cilia.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Cilia.xml",
-            "channel": 0
           }
-        },
-        "name": "Flagella"
+        }
       }
     },
     "FM_full_BF": {
@@ -447,34 +315,23 @@
           "bdv.n5": {
             "relativePath": "images/bdv-n5/FM_full_BF.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/FM_full_BF.xml",
-            "channel": 0
           }
-        },
-        "name": "FM_full_BF"
+        }
       }
     },
     "Theca": {
       "segmentation": {
         "tableData": {
           "tsv": {
-            "relativePath": "tables/Theca",
-            "channel": 0
+            "relativePath": "tables/Theca"
           }
         },
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/Theca.xml",
             "channel": 0
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/Theca.xml",
-            "channel": 0
           }
-        },
-        "name": "Theca"
+        }
       }
     }
   },
@@ -541,8 +398,7 @@
         ],
         "timepoint": 0
       },
-      "isExclusive": true,
-      "name": ""
+      "isExclusive": true
     },
     "photosynthetic_dinoflagellate": {
       "uiSelectionGroup": "EM",
@@ -639,8 +495,7 @@
           }
         }
       ],
-      "isExclusive": false,
-      "name": "LM_full_BF"
+      "isExclusive": false
     },
     "LM_fullblock_633nm": {
       "uiSelectionGroup": "Fluorescence",
@@ -690,8 +545,7 @@
           }
         }
       ],
-      "isExclusive": false,
-      "name": "LM_full_633nm"
+      "isExclusive": false
     },
     "LM_fullblock_488nm": {
       "uiSelectionGroup": "Fluorescence",
@@ -741,8 +595,7 @@
           }
         }
       ],
-      "isExclusive": false,
-      "name": "LM_full_488nm"
+      "isExclusive": false
     },
     "LM_fullblock_RL": {
       "uiSelectionGroup": "Fluorescence",
@@ -792,9 +645,7 @@
           }
         }
       ],
-      "isExclusive": false,
-      "name": "LM_full_RL"
-    },
+      "isExclusive": false},
     "LM_pre-trim_BF": {
       "uiSelectionGroup": "Fluorescence",
       "sourceDisplays": [
@@ -843,8 +694,7 @@
           }
         }
       ],
-      "isExclusive": false,
-      "name": "LM_pre-trim_BF"
+      "isExclusive": false
     },
     "LM_pre-trim_633nm": {
       "uiSelectionGroup": "Fluorescence",
@@ -894,8 +744,7 @@
           }
         }
       ],
-      "isExclusive": false,
-      "name": "LM_pre-trim_633nm"
+      "isExclusive": false
     },
     "LM_pre-trim_488nm": {
       "uiSelectionGroup": "Fluorescence",
@@ -945,8 +794,7 @@
           }
         }
       ],
-      "isExclusive": false,
-      "name": "LM_pre-trim_488nm"
+      "isExclusive": false
     },
     "LM_pre-trim_RL": {
       "uiSelectionGroup": "Fluorescence",
@@ -996,8 +844,7 @@
           }
         }
       ],
-      "isExclusive": false,
-      "name": "LM_pre-trim_RL"
+      "isExclusive": false
     },
     "LM_trim_BF": {
       "uiSelectionGroup": "Fluorescence",
@@ -1020,8 +867,7 @@
           }
         }
       ],
-      "isExclusive": false,
-      "name": "LM_trim_BF"
+      "isExclusive": false
     },
     "LM_trim_633nm": {
       "uiSelectionGroup": "Fluorescence",
@@ -1044,8 +890,7 @@
           }
         }
       ],
-      "isExclusive": false,
-      "name": "LM_trim_633nm"
+      "isExclusive": false
     },
     "LM_trim_488nm": {
       "uiSelectionGroup": "Fluorescence",
@@ -1068,8 +913,7 @@
           }
         }
       ],
-      "isExclusive": false,
-      "name": "LM_trim_488nm"
+      "isExclusive": false
     },
     "LM_trim_RL": {
       "uiSelectionGroup": "Fluorescence",
@@ -1092,8 +936,7 @@
           }
         }
       ],
-      "isExclusive": false,
-      "name": "LM_trim_RL"
+      "isExclusive": false
     },
     "Cell": {
       "uiSelectionGroup": "EM_segmentation",
@@ -1118,8 +961,7 @@
             "opacityNotSelected": 0.15,
             "name": "Cell",
             "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
+            "visible": true
           }
         }
       ],
@@ -1172,8 +1014,7 @@
             "opacityNotSelected": 0.15,
             "name": "Chloroplast",
             "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
+            "visible": true
           }
         }
       ],
@@ -1226,8 +1067,7 @@
             "opacityNotSelected": 0.15,
             "name": "Chromosomes",
             "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
+            "visible": true
           }
         }
       ],
@@ -1280,8 +1120,7 @@
             "opacityNotSelected": 0.15,
             "name": "Eyespots",
             "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
+            "visible": true
           }
         }
       ],
@@ -1334,8 +1173,7 @@
             "opacityNotSelected": 0.15,
             "name": "Filaments_nucleolus",
             "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
+            "visible": true
           }
         }
       ],
@@ -1388,8 +1226,7 @@
             "opacityNotSelected": 0.15,
             "name": "Flagella",
             "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
+            "visible": true
           }
         }
       ],
@@ -1442,8 +1279,7 @@
             "opacityNotSelected": 0.15,
             "name": "Golgi",
             "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
+            "visible": true
           }
         }
       ],
@@ -1496,8 +1332,7 @@
             "opacityNotSelected": 0.15,
             "name": "Mucocysts",
             "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
+            "visible": true
           }
         }
       ],
@@ -1550,8 +1385,7 @@
             "opacityNotSelected": 0.15,
             "name": "Nucleus",
             "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
+            "visible": true
           }
         }
       ],
@@ -1604,8 +1438,7 @@
             "opacityNotSelected": 0.15,
             "name": "Nucleolus",
             "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
+            "visible": true
           }
         }
       ],
@@ -1658,8 +1491,7 @@
             "opacityNotSelected": 0.15,
             "name": "Sheets_of_filaments",
             "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
+            "visible": true
           }
         }
       ],
@@ -1712,8 +1544,7 @@
             "opacityNotSelected": 0.15,
             "name": "Starch",
             "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
+            "visible": true
           }
         }
       ],
@@ -1765,8 +1596,7 @@
             "opacityNotSelected": 0.15,
             "name": "Trichocysts",
             "opacity": 0.5,
-            "visible": true,
-            "blendingMode": "alpha"
+            "visible": true
           }
         }
       ],
@@ -1912,8 +1742,7 @@
         ],
         "timepoint": 0
       },
-      "isExclusive": true,
-      "name": ""
+      "isExclusive": true
     },
     "LM_pre-trim": {
       "uiSelectionGroup": "Light_microscopy_views",
@@ -2031,8 +1860,7 @@
         ],
         "timepoint": 0
       },
-      "isExclusive": true,
-      "name": ""
+      "isExclusive": true
     },
     "LM_trimmed-branded": {
       "uiSelectionGroup": "Light_microscopy_views",
@@ -2124,8 +1952,7 @@
         ],
         "timepoint": 0
       },
-      "isExclusive": true,
-      "name": ""
+      "isExclusive": true
     },
     "CLEM_fig3c": {
       "uiSelectionGroup": "overlays",
@@ -2257,8 +2084,7 @@
         ],
         "timepoint": 0
       },
-      "isExclusive": true,
-      "name": ""
+      "isExclusive": true
     },
     "trim-pretrim": {
       "uiSelectionGroup": "overlays",
@@ -2342,8 +2168,7 @@
         ],
         "timepoint": 0
       },
-      "isExclusive": true,
-      "name": ""
+      "isExclusive": true
     }
   }
 }
