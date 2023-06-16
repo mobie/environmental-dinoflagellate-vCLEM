@@ -15,6 +15,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/Chloroplast.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Chloroplast.xml"
           }
         },
         "tableData": {
@@ -30,6 +33,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/Chromosomes.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Chromosomes.xml"
           }
         },
         "tableData": {
@@ -45,6 +51,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/Eyespots.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Eyespots.xml"
           }
         },
         "tableData": {
@@ -60,6 +69,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/FM_full_488nm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_full_488nm.xml"
           }
         }
       }
@@ -70,6 +82,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/FM_full_633nm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_full_633nm.xml"
           }
         }
       }
@@ -80,6 +95,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/FM_full_BF.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_full_BF.xml"
           }
         }
       }
@@ -90,6 +108,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/FM_full_RL.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_full_RL.xml"
           }
         }
       }
@@ -100,6 +121,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/FM_pre-trim_488nm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_pre-trim_488nm.xml"
           }
         }
       }
@@ -110,6 +134,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/FM_pre-trim_633nm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_pre-trim_633nm.xml"
           }
         }
       }
@@ -120,6 +147,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/FM_pre-trim_BF.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_pre-trim_BF.xml"
           }
         }
       }
@@ -130,6 +160,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/FM_pre-trim_RL.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_pre-trim_RL.xml"
           }
         }
       }
@@ -140,6 +173,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/FM_trim_488nm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_trim_488nm.xml"
           }
         }
       }
@@ -150,6 +186,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/FM_trim_633nm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_trim_633nm.xml"
           }
         }
       }
@@ -160,6 +199,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/FM_trim_BF.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_trim_BF.xml"
           }
         }
       }
@@ -170,6 +212,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/FM_trim_RL.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/FM_trim_RL.xml"
           }
         }
       }
@@ -180,6 +225,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/Filaments_nucleolus.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Filaments_nucleolus.xml"
           }
         },
         "tableData": {
@@ -195,6 +243,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/Cilia.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Cilia.xml"
           }
         },
         "tableData": {
@@ -210,6 +261,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/Golgi.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Golgi.xml"
           }
         },
         "tableData": {
@@ -224,6 +278,9 @@
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/Mitochondrion.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Mitochondrion.xml"
           }
         },
         "tableData": {
@@ -239,6 +296,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/Mucocysts.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Mucocysts.xml"
           }
         },
         "tableData": {
@@ -254,6 +314,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/Nucleolus.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Nucleolus.xml"
           }
         },
         "tableData": {
@@ -269,6 +332,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/Nuclear_envelope.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Nuclear_envelope.xml"
           }
         },
         "tableData": {
@@ -284,6 +350,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/Sheets_of_filaments.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Sheets_of_filaments.xml"
           }
         },
         "tableData": {
@@ -299,6 +368,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/Starch.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Starch.xml"
           }
         },
         "tableData": {
@@ -314,6 +386,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/Theca.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Theca.xml"
           }
         },
         "tableData": {
@@ -329,6 +404,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/Trichocysts.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/Trichocysts.xml"
           }
         },
         "tableData": {
@@ -344,6 +422,9 @@
           "bdv.n5": {
             "channel": 0,
             "relativePath": "images/bdv-n5/photosynthetic_dinoflagellate.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/photosynthetic_dinoflagellate.xml"
           }
         }
       }

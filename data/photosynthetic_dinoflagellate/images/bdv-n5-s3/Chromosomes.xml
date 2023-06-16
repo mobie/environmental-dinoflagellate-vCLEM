@@ -9,7 +9,7 @@
       </Attributes>
       <ViewSetup>
         <id>0</id>
-        <name>Mitochondrion</name>
+        <name>Chromosomes</name>
         <size>1359 1359 969</size>
         <voxelSize>
           <unit>nm</unit>
@@ -25,8 +25,8 @@
       <last>0</last>
     </Timepoints>
     <ImageLoader format="bdv.n5.s3">
-      <Key>photosynthetic_dinoflagellate/images/bdv-n5/Mitochondrion.n5</Key>
-      <SigningRegion />
+      <Key>photosynthetic_dinoflagellate/images/bdv-n5/Chromosomes.n5</Key>
+      <SigningRegion>us-west-2</SigningRegion>
       <ServiceEndpoint>https://s3.embl.de</ServiceEndpoint>
       <BucketName>environmental-dinoflagellate-vclem</BucketName>
     </ImageLoader>

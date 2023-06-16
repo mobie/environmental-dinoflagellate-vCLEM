@@ -9,11 +9,11 @@
       </Attributes>
       <ViewSetup>
         <id>0</id>
-        <name>Mitochondrion</name>
-        <size>1359 1359 969</size>
+        <name>photosynthetic_dinoflagellate</name>
+        <size>2718 2718 1937</size>
         <voxelSize>
           <unit>nm</unit>
-          <size>16 16 16</size>
+          <size>8 8 8</size>
         </voxelSize>
         <attributes>
           <channel>0</channel>
@@ -25,7 +25,7 @@
       <last>0</last>
     </Timepoints>
     <ImageLoader format="bdv.n5.s3">
-      <Key>photosynthetic_dinoflagellate/images/bdv-n5/Mitochondrion.n5</Key>
+      <Key>photosynthetic_dinoflagellate/images/bdv-n5/photosynthetic_dinoflagellate.n5</Key>
       <SigningRegion />
       <ServiceEndpoint>https://s3.embl.de</ServiceEndpoint>
       <BucketName>environmental-dinoflagellate-vclem</BucketName>
@@ -34,7 +34,7 @@
   <ViewRegistrations>
     <ViewRegistration timepoint="0" setup="0">
       <ViewTransform type="affine">
-        <affine>0.016 0.0 0.0 0.0 0.0 0.016 0.0 0.0 0.0 0.0 0.016 0.0</affine>
+        <affine>0.008 0.0 0.0 0.0 0.0 0.008 0.0 0.0 0.0 0.0 0.008 0.0</affine>
       </ViewTransform>
     </ViewRegistration>
   </ViewRegistrations>

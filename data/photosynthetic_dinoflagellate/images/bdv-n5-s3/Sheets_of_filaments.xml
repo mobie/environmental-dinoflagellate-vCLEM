@@ -9,7 +9,7 @@
       </Attributes>
       <ViewSetup>
         <id>0</id>
-        <name>Mitochondrion</name>
+        <name>Sheets_of_filaments</name>
         <size>1359 1359 969</size>
         <voxelSize>
           <unit>nm</unit>
@@ -25,7 +25,7 @@
       <last>0</last>
     </Timepoints>
     <ImageLoader format="bdv.n5.s3">
-      <Key>photosynthetic_dinoflagellate/images/bdv-n5/Mitochondrion.n5</Key>
+      <Key>photosynthetic_dinoflagellate/images/bdv-n5/Sheets_of_filaments.n5</Key>
       <SigningRegion />
       <ServiceEndpoint>https://s3.embl.de</ServiceEndpoint>
       <BucketName>environmental-dinoflagellate-vclem</BucketName>

@@ -2,30 +2,31 @@
   <BasePath type="relative">.</BasePath>
   <SequenceDescription>
     <ViewSetups>
-      <Attributes name="channel">
-        <Channel>
-          <id>0</id>
-        </Channel>
-      </Attributes>
       <ViewSetup>
         <id>0</id>
-        <name>Mitochondrion</name>
-        <size>1359 1359 969</size>
+        <name>FM_pre-trim_BF</name>
+        <size>880 880 38</size>
         <voxelSize>
-          <unit>nm</unit>
-          <size>16 16 16</size>
+          <unit>&#181;m</unit>
+          <size>0.19322550398878022 0.19322550398878022 3.0</size>
         </voxelSize>
         <attributes>
-          <channel>0</channel>
+          <channel>1</channel>
         </attributes>
       </ViewSetup>
+      <Attributes name="channel">
+        <Channel>
+          <id>1</id>
+          <name>1</name>
+        </Channel>
+      </Attributes>
     </ViewSetups>
     <Timepoints type="range">
       <first>0</first>
       <last>0</last>
     </Timepoints>
     <ImageLoader format="bdv.n5.s3">
-      <Key>photosynthetic_dinoflagellate/images/bdv-n5/Mitochondrion.n5</Key>
+      <Key>photosynthetic_dinoflagellate/images/bdv-n5/FM_pre-trim_BF.n5</Key>
       <SigningRegion />
       <ServiceEndpoint>https://s3.embl.de</ServiceEndpoint>
       <BucketName>environmental-dinoflagellate-vclem</BucketName>
@@ -34,7 +35,7 @@
   <ViewRegistrations>
     <ViewRegistration timepoint="0" setup="0">
       <ViewTransform type="affine">
-        <affine>0.016 0.0 0.0 0.0 0.0 0.016 0.0 0.0 0.0 0.0 0.016 0.0</affine>
+        <affine>0.19322550398878022 0.0 0.0 0.0 0.0 -0.19322550398878022 0.0 0.0 0.0 0.0 3.0 0.0</affine>
       </ViewTransform>
     </ViewRegistration>
   </ViewRegistrations>
