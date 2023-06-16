@@ -350,7 +350,7 @@
     }
   },
   "views": {
-    "CLEM_fig3c": {
+    "CLEM_fig4c": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -1678,7 +1678,8 @@
       "sourceDisplays": [
         {
           "segmentationDisplay": {
-            "lut": "glasbey",
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
             "name": "Mitochondrion",
             "opacity": 0.5,
             "sources": [
